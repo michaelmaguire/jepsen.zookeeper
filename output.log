@@ -1,8 +1,8 @@
-14:18:12.625 [main] INFO  jepsen.cli - Test options:
+14:36:51.014 [main] INFO  jepsen.cli - Test options:
  {:concurrency 1,
  :test-count 1,
  :time-limit 60,
- :nodes-file "../nodes",
+ :nodes-file "/home/admin/nodes",
  :nodes ["w1"],
  :ssh
  {:username "admin",
@@ -10,19 +10,29 @@
   :strict-host-key-checking false,
   :private-key-path nil}}
 
-INFO [2016-12-13 14:18:13,083] jepsen nemesis - jepsen.core Nemesis starting
-INFO [2016-12-13 14:18:13,083] jepsen nemesis - jepsen.core nemesis done
-INFO [2016-12-13 14:18:13,084] jepsen worker 0 - jepsen.core Worker 0 starting
-INFO [2016-12-13 14:18:13,085] jepsen worker 0 - jepsen.core Worker 0 done
-INFO [2016-12-13 14:18:13,085] jepsen test runner - jepsen.core Waiting for nemesis to complete
-INFO [2016-12-13 14:18:13,085] jepsen test runner - jepsen.core nemesis done.
-INFO [2016-12-13 14:18:13,085] jepsen test runner - jepsen.core Tearing down nemesis
-INFO [2016-12-13 14:18:13,085] jepsen test runner - jepsen.core Nemesis torn down
-INFO [2016-12-13 14:18:13,086] jepsen test runner - jepsen.core Run complete, writing
-INFO [2016-12-13 14:18:13,108] jepsen test runner - jepsen.core Analyzing
-INFO [2016-12-13 14:18:13,119] jepsen test runner - jepsen.core Analysis complete
-INFO [2016-12-13 14:18:13,132] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/noop/20161213T141812.000Z/results.edn
-INFO [2016-12-13 14:18:13,139] main - jepsen.core {:valid? true,
+INFO [2016-12-13 14:36:51,405] jepsen node w1 - jepsen.os.debian w1 setting up debian
+INFO [2016-12-13 14:36:51,916] jepsen node w1 - jepsen.os.debian Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
+INFO [2016-12-13 14:36:57,026] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 14:36:57,026] jepsen node w1 - jepsen.zookeeper Setting up ZK on  w1
+INFO [2016-12-13 14:36:57,027] jepsen node w1 - jepsen.zookeeper w1 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 14:36:57,129] jepsen node w1 - jepsen.os.debian Installing :zookeeper 3.4.5+dfsg-2
+INFO [2016-12-13 14:37:06,943] jepsen node w1 - jepsen.os.debian Installing :zookeeper-bin 3.4.5+dfsg-2
+INFO [2016-12-13 14:37:10,650] jepsen node w1 - jepsen.os.debian Installing :zookeeperd 3.4.5+dfsg-2
+INFO [2016-12-13 14:37:13,456] jepsen node w1 - jepsen.zookeeper w1 id is 0
+INFO [2016-12-13 14:37:13,462] jepsen nemesis - jepsen.core Nemesis starting
+INFO [2016-12-13 14:37:13,462] jepsen nemesis - jepsen.core nemesis done
+INFO [2016-12-13 14:37:13,463] jepsen worker 0 - jepsen.core Worker 0 starting
+INFO [2016-12-13 14:37:13,463] jepsen worker 0 - jepsen.core Worker 0 done
+INFO [2016-12-13 14:37:13,464] jepsen test runner - jepsen.core Waiting for nemesis to complete
+INFO [2016-12-13 14:37:13,464] jepsen test runner - jepsen.core nemesis done.
+INFO [2016-12-13 14:37:13,464] jepsen test runner - jepsen.core Tearing down nemesis
+INFO [2016-12-13 14:37:13,464] jepsen test runner - jepsen.core Nemesis torn down
+INFO [2016-12-13 14:37:13,465] jepsen test runner - jepsen.core Run complete, writing
+INFO [2016-12-13 14:37:13,483] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 14:37:13,488] jepsen test runner - jepsen.core Analyzing
+INFO [2016-12-13 14:37:13,498] jepsen test runner - jepsen.core Analysis complete
+INFO [2016-12-13 14:37:13,511] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T143651.000Z/results.edn
+INFO [2016-12-13 14:37:13,520] main - jepsen.core {:valid? true,
  :configs ({:model {}, :last-op nil, :pending []}),
  :final-paths ()}
 

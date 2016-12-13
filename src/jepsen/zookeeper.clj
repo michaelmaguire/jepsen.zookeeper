@@ -9,11 +9,23 @@
             )
   )
 
+
+
+(defn zk-node-ids "Returns a map of node names to node ids." [test] (->> test :nodes (map-indexed (fn [i node] [node i])) (into {})))
+
+(defn zk-node-id "Given a test and a node name from that test, returns the ID for that node." [test node] ((zk-node-ids test) node))
+
 (defn db "A zookeeper DB at the given version"
   [version]
   (reify db/DB
     (setup! [_ test node]
-      (info "Setting up ZK on " node))
+      (info "Setting up ZK on " node)
+      (c/su
+        (info node "Installing ZK" version)
+        (debian/install {:zookeeper version
+                         :zookeeper-bin version
+                         :zookeeperd version})
+        (info node "id is" (zk-node-id test node))))
     (teardown! [_ test node]
       (info node "tearing down ZK"))))
 
@@ -24,6 +36,9 @@
          {
           :nodes (:nodes opts) 
           :ssh (:ssh opts)
+          :name "zookeeper"
+          :os debian/os
+          :db (db "3.4.5+dfsg-2")
           }))
 
 (defn -main
