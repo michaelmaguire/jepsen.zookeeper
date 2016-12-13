@@ -6,6 +6,8 @@
              [tests :as tests]]
             [jepsen.os.debian :as debian]
             [clojure.tools.logging :refer :all]
+            [clojure.java.io :as io]
+            [clojure.string :as str]
             )
   )
 
@@ -14,6 +16,16 @@
 (defn zk-node-ids "Returns a map of node names to node ids." [test] (->> test :nodes (map-indexed (fn [i node] [node i])) (into {})))
 
 (defn zk-node-id "Given a test and a node name from that test, returns the ID for that node." [test node] ((zk-node-ids test) node))
+
+
+(defn zoo-cfg-servers
+  "Constructs a zoo.cfg fragment for servers."
+  [test]
+  (->> (zk-node-ids test)
+       (map (fn[[node id]]
+              (str "server." id "=" (name node) ":2888:3888")))
+       (str/join "\n")))
+
 
 (defn db "A zookeeper DB at the given version"
   [version]

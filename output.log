@@ -1,4 +1,4 @@
-14:54:08.534 [main] INFO  jepsen.cli - Test options:
+15:08:08.406 [main] INFO  jepsen.cli - Test options:
  {:concurrency 5,
  :test-count 1,
  :time-limit 60,
@@ -10,77 +10,57 @@
   :strict-host-key-checking false,
   :private-key-path nil}}
 
-INFO [2016-12-13 14:54:09,271] jepsen node w2 - jepsen.os.debian w2 setting up debian
-INFO [2016-12-13 14:54:09,271] jepsen node w4 - jepsen.os.debian w4 setting up debian
-INFO [2016-12-13 14:54:09,271] jepsen node w3 - jepsen.os.debian w3 setting up debian
-INFO [2016-12-13 14:54:09,271] jepsen node w1 - jepsen.os.debian w1 setting up debian
-INFO [2016-12-13 14:54:09,271] jepsen node w5 - jepsen.os.debian w5 setting up debian
-INFO [2016-12-13 14:54:09,787] jepsen node w2 - jepsen.os.debian Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
-INFO [2016-12-13 14:54:09,787] jepsen node w1 - jepsen.os.debian Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
-INFO [2016-12-13 14:54:09,787] jepsen node w4 - jepsen.os.debian Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
-INFO [2016-12-13 14:54:09,882] jepsen node w3 - jepsen.os.debian Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
-INFO [2016-12-13 14:54:09,882] jepsen node w5 - jepsen.os.debian Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
-INFO [2016-12-13 14:54:15,494] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
-INFO [2016-12-13 14:54:15,494] jepsen node w3 - jepsen.zookeeper Setting up ZK on  w3
-INFO [2016-12-13 14:54:15,494] jepsen node w3 - jepsen.zookeeper w3 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,495] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
-INFO [2016-12-13 14:54:15,495] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
-INFO [2016-12-13 14:54:15,495] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
-INFO [2016-12-13 14:54:15,496] jepsen node w4 - jepsen.zookeeper Setting up ZK on  w4
-INFO [2016-12-13 14:54:15,496] jepsen node w1 - jepsen.zookeeper Setting up ZK on  w1
-INFO [2016-12-13 14:54:15,496] jepsen node w2 - jepsen.zookeeper Setting up ZK on  w2
-INFO [2016-12-13 14:54:15,496] jepsen node w4 - jepsen.zookeeper w4 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,496] jepsen node w1 - jepsen.zookeeper w1 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,496] jepsen node w2 - jepsen.zookeeper w2 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,496] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
-INFO [2016-12-13 14:54:15,497] jepsen node w5 - jepsen.zookeeper Setting up ZK on  w5
-INFO [2016-12-13 14:54:15,497] jepsen node w5 - jepsen.zookeeper w5 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,596] jepsen node w3 - jepsen.os.debian Installing :zookeeper 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,598] jepsen node w4 - jepsen.os.debian Installing :zookeeper 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,598] jepsen node w2 - jepsen.os.debian Installing :zookeeper 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,599] jepsen node w5 - jepsen.os.debian Installing :zookeeper 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:15,599] jepsen node w1 - jepsen.os.debian Installing :zookeeper 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:22,510] jepsen node w2 - jepsen.os.debian Installing :zookeeper-bin 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:23,411] jepsen node w1 - jepsen.os.debian Installing :zookeeper-bin 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:23,509] jepsen node w3 - jepsen.os.debian Installing :zookeeper-bin 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:24,411] jepsen node w4 - jepsen.os.debian Installing :zookeeper-bin 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:24,513] jepsen node w5 - jepsen.os.debian Installing :zookeeper-bin 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:25,416] jepsen node w2 - jepsen.os.debian Installing :zookeeperd 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:26,918] jepsen node w1 - jepsen.os.debian Installing :zookeeperd 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:27,316] jepsen node w3 - jepsen.os.debian Installing :zookeeperd 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:27,721] jepsen node w2 - jepsen.zookeeper w2 id is 1
-INFO [2016-12-13 14:54:28,219] jepsen node w5 - jepsen.os.debian Installing :zookeeperd 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:28,618] jepsen node w4 - jepsen.os.debian Installing :zookeeperd 3.4.5+dfsg-2
-INFO [2016-12-13 14:54:29,122] jepsen node w1 - jepsen.zookeeper w1 id is 0
-INFO [2016-12-13 14:54:29,420] jepsen node w3 - jepsen.zookeeper w3 id is 2
-INFO [2016-12-13 14:54:30,623] jepsen node w5 - jepsen.zookeeper w5 id is 4
-INFO [2016-12-13 14:54:31,223] jepsen node w4 - jepsen.zookeeper w4 id is 3
-INFO [2016-12-13 14:54:31,229] jepsen nemesis - jepsen.core Nemesis starting
-INFO [2016-12-13 14:54:31,230] jepsen nemesis - jepsen.core nemesis done
-INFO [2016-12-13 14:54:31,231] jepsen worker 0 - jepsen.core Worker 0 starting
-INFO [2016-12-13 14:54:31,231] jepsen worker 1 - jepsen.core Worker 1 starting
-INFO [2016-12-13 14:54:31,231] jepsen worker 2 - jepsen.core Worker 2 starting
-INFO [2016-12-13 14:54:31,231] jepsen worker 4 - jepsen.core Worker 4 starting
-INFO [2016-12-13 14:54:31,231] jepsen worker 3 - jepsen.core Worker 3 starting
-INFO [2016-12-13 14:54:31,231] jepsen worker 0 - jepsen.core Worker 0 done
-INFO [2016-12-13 14:54:31,231] jepsen worker 1 - jepsen.core Worker 1 done
-INFO [2016-12-13 14:54:31,231] jepsen worker 2 - jepsen.core Worker 2 done
-INFO [2016-12-13 14:54:31,231] jepsen worker 4 - jepsen.core Worker 4 done
-INFO [2016-12-13 14:54:31,231] jepsen worker 3 - jepsen.core Worker 3 done
-INFO [2016-12-13 14:54:31,232] jepsen test runner - jepsen.core Waiting for nemesis to complete
-INFO [2016-12-13 14:54:31,232] jepsen test runner - jepsen.core nemesis done.
-INFO [2016-12-13 14:54:31,232] jepsen test runner - jepsen.core Tearing down nemesis
-INFO [2016-12-13 14:54:31,232] jepsen test runner - jepsen.core Nemesis torn down
-INFO [2016-12-13 14:54:31,233] jepsen test runner - jepsen.core Run complete, writing
-INFO [2016-12-13 14:54:31,275] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
-INFO [2016-12-13 14:54:31,275] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
-INFO [2016-12-13 14:54:31,275] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
-INFO [2016-12-13 14:54:31,275] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
-INFO [2016-12-13 14:54:31,276] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
-INFO [2016-12-13 14:54:31,284] jepsen test runner - jepsen.core Analyzing
-INFO [2016-12-13 14:54:31,321] jepsen test runner - jepsen.core Analysis complete
-INFO [2016-12-13 14:54:31,332] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T145408.000Z/results.edn
-INFO [2016-12-13 14:54:31,337] main - jepsen.core {:valid? true,
+INFO [2016-12-13 15:08:09,157] jepsen node w2 - jepsen.os.debian w2 setting up debian
+INFO [2016-12-13 15:08:09,157] jepsen node w4 - jepsen.os.debian w4 setting up debian
+INFO [2016-12-13 15:08:09,157] jepsen node w5 - jepsen.os.debian w5 setting up debian
+INFO [2016-12-13 15:08:09,157] jepsen node w3 - jepsen.os.debian w3 setting up debian
+INFO [2016-12-13 15:08:09,157] jepsen node w1 - jepsen.os.debian w1 setting up debian
+INFO [2016-12-13 15:08:09,874] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
+INFO [2016-12-13 15:08:09,874] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
+INFO [2016-12-13 15:08:09,874] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
+INFO [2016-12-13 15:08:09,874] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
+INFO [2016-12-13 15:08:09,874] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 15:08:09,874] jepsen node w3 - jepsen.zookeeper Setting up ZK on  w3
+INFO [2016-12-13 15:08:09,874] jepsen node w4 - jepsen.zookeeper Setting up ZK on  w4
+INFO [2016-12-13 15:08:09,874] jepsen node w5 - jepsen.zookeeper Setting up ZK on  w5
+INFO [2016-12-13 15:08:09,874] jepsen node w2 - jepsen.zookeeper Setting up ZK on  w2
+INFO [2016-12-13 15:08:09,875] jepsen node w1 - jepsen.zookeeper Setting up ZK on  w1
+INFO [2016-12-13 15:08:09,875] jepsen node w3 - jepsen.zookeeper w3 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:08:09,875] jepsen node w4 - jepsen.zookeeper w4 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:08:09,875] jepsen node w5 - jepsen.zookeeper w5 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:08:09,875] jepsen node w2 - jepsen.zookeeper w2 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:08:09,875] jepsen node w1 - jepsen.zookeeper w1 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:08:10,181] jepsen node w1 - jepsen.zookeeper w1 id is 0
+INFO [2016-12-13 15:08:10,182] jepsen node w4 - jepsen.zookeeper w4 id is 3
+INFO [2016-12-13 15:08:10,182] jepsen node w2 - jepsen.zookeeper w2 id is 1
+INFO [2016-12-13 15:08:10,182] jepsen node w3 - jepsen.zookeeper w3 id is 2
+INFO [2016-12-13 15:08:10,183] jepsen node w5 - jepsen.zookeeper w5 id is 4
+INFO [2016-12-13 15:08:10,189] jepsen nemesis - jepsen.core Nemesis starting
+INFO [2016-12-13 15:08:10,189] jepsen nemesis - jepsen.core nemesis done
+INFO [2016-12-13 15:08:10,190] jepsen worker 4 - jepsen.core Worker 4 starting
+INFO [2016-12-13 15:08:10,190] jepsen worker 0 - jepsen.core Worker 0 starting
+INFO [2016-12-13 15:08:10,190] jepsen worker 3 - jepsen.core Worker 3 starting
+INFO [2016-12-13 15:08:10,190] jepsen worker 1 - jepsen.core Worker 1 starting
+INFO [2016-12-13 15:08:10,190] jepsen worker 2 - jepsen.core Worker 2 starting
+INFO [2016-12-13 15:08:10,190] jepsen worker 4 - jepsen.core Worker 4 done
+INFO [2016-12-13 15:08:10,190] jepsen worker 0 - jepsen.core Worker 0 done
+INFO [2016-12-13 15:08:10,190] jepsen worker 3 - jepsen.core Worker 3 done
+INFO [2016-12-13 15:08:10,190] jepsen worker 1 - jepsen.core Worker 1 done
+INFO [2016-12-13 15:08:10,191] jepsen worker 2 - jepsen.core Worker 2 done
+INFO [2016-12-13 15:08:10,191] jepsen test runner - jepsen.core Waiting for nemesis to complete
+INFO [2016-12-13 15:08:10,191] jepsen test runner - jepsen.core nemesis done.
+INFO [2016-12-13 15:08:10,191] jepsen test runner - jepsen.core Tearing down nemesis
+INFO [2016-12-13 15:08:10,192] jepsen test runner - jepsen.core Nemesis torn down
+INFO [2016-12-13 15:08:10,192] jepsen test runner - jepsen.core Run complete, writing
+INFO [2016-12-13 15:08:10,209] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
+INFO [2016-12-13 15:08:10,209] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
+INFO [2016-12-13 15:08:10,210] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 15:08:10,210] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
+INFO [2016-12-13 15:08:10,210] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
+INFO [2016-12-13 15:08:10,218] jepsen test runner - jepsen.core Analyzing
+INFO [2016-12-13 15:08:10,227] jepsen test runner - jepsen.core Analysis complete
+INFO [2016-12-13 15:08:10,236] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T150808.000Z/results.edn
+INFO [2016-12-13 15:08:10,321] main - jepsen.core {:valid? true,
  :configs ({:model {}, :last-op nil, :pending []}),
  :final-paths ()}
 
