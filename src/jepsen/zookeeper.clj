@@ -116,7 +116,8 @@
 (defn -main
   "Handle command line arguments"
   [& args]
-  (cli/run! (cli/single-test-cmd {:test-fn zk-test}) args))
+  (cli/run! (merge (cli/single-test-cmd {:test-fn zk-test})
+                   (cli/serve-cmd)) args))
 
 
 
