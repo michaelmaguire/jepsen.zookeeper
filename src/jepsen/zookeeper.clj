@@ -79,7 +79,7 @@
     (invoke! [this test op]
       (timeout 5000 (assoc op :type :info, :error :timeout)
                (case (:f op)
-                 :read (assoc op :type :ok, :value @a)
+                 :read (do (info "log from test" @a) (assoc op :type :ok, :value @a))
                  :write (do (avout/reset!! a (:value  op))
                             (assoc op :type :ok)))))
     (teardown! [_ test]

@@ -1,0 +1,146 @@
+2	:invoke	:read	nil
+2	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+4	:invoke	:read	nil
+4	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+0	:invoke	:write	1
+0	:ok	:write	1
+1	:invoke	:write	0
+1	:ok	:write	0
+7	:invoke	:write	1
+7	:ok	:write	1
+1	:invoke	:read	nil
+1	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+3	:invoke	:write	1
+3	:ok	:write	1
+9	:invoke	:write	2
+9	:ok	:write	2
+7	:invoke	:write	2
+7	:ok	:write	2
+0	:invoke	:write	0
+0	:ok	:write	0
+3	:invoke	:write	3
+3	:ok	:write	3
+6	:invoke	:read	nil
+6	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+11	:invoke	:read	nil
+11	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+9	:invoke	:read	nil
+9	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+14	:invoke	:write	1
+14	:ok	:write	1
+0	:invoke	:read	nil
+0	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+7	:invoke	:read	nil
+7	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+3	:invoke	:write	1
+3	:ok	:write	1
+5	:invoke	:write	1
+5	:ok	:write	1
+14	:invoke	:read	nil
+14	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+3	:invoke	:write	4
+3	:ok	:write	4
+12	:invoke	:read	nil
+12	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+16	:invoke	:write	1
+16	:ok	:write	1
+3	:invoke	:read	nil
+3	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+5	:invoke	:write	0
+5	:ok	:write	0
+17	:invoke	:read	nil
+17	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+16	:invoke	:write	3
+16	:ok	:write	3
+19	:invoke	:read	nil
+19	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+16	:invoke	:read	nil
+16	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+24	:invoke	:write	0
+5	:invoke	:read	nil
+5	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+24	:ok	:write	0
+8	:invoke	:write	2
+8	:ok	:write	2
+22	:invoke	:write	4
+22	:ok	:write	4
+21	:invoke	:read	nil
+21	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+24	:invoke	:write	2
+24	:ok	:write	2
+24	:invoke	:write	2
+24	:ok	:write	2
+8	:invoke	:read	nil
+8	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+10	:invoke	:write	2
+10	:ok	:write	2
+22	:invoke	:read	nil
+22	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+24	:invoke	:write	1
+24	:ok	:write	1
+26	:invoke	:read	nil
+26	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+13	:invoke	:write	2
+13	:ok	:write	2
+31	:invoke	:write	0
+31	:ok	:write	0
+24	:invoke	:read	nil
+24	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+10	:invoke	:read	nil
+10	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+27	:invoke	:write	4
+13	:invoke	:read	nil
+13	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+27	:ok	:write	4
+15	:invoke	:read	nil
+15	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+27	:invoke	:write	1
+27	:ok	:write	1
+29	:invoke	:write	1
+29	:ok	:write	1
+31	:invoke	:write	0
+31	:ok	:write	0
+18	:invoke	:write	0
+18	:ok	:write	0
+29	:invoke	:read	nil
+20	:invoke	:read	nil
+20	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+29	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+27	:invoke	:read	nil
+27	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+34	:invoke	:read	nil
+34	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+39	:invoke	:read	nil
+39	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+44	:invoke	:read	nil
+44	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+31	:invoke	:read	nil
+31	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+25	:invoke	:read	nil
+25	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+32	:invoke	:read	nil
+32	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+18	:invoke	:read	nil
+18	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+49	:invoke	:write	2
+49	:ok	:write	2
+36	:invoke	:write	1
+36	:ok	:write	1
+36	:invoke	:read	nil
+36	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+23	:invoke	:write	1
+23	:ok	:write	1
+30	:invoke	:read	nil
+30	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+49	:invoke	:write	2
+49	:ok	:write	2
+35	:invoke	:write	1
+35	:ok	:write	1
+37	:invoke	:read	nil
+37	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+41	:invoke	:write	0
+41	:ok	:write	0
+49	:invoke	:read	nil
+49	:info	:read	nil	indeterminate: Assert failed: (= (:process op) (:process completion))
+23	:invoke	:write	1
+23	:ok	:write	1
