@@ -5,6 +5,8 @@
              [control :as c]
              [tests :as tests]
              [cli :as cli]
+             [generator :as gen]
+             [util :as util :refer [timeout]]
              [client :as client]]
             [jepsen.os.debian :as debian]
             [clojure.tools.logging :refer :all]
@@ -91,6 +93,10 @@
           :os debian/os
           :db (db "3.4.5+dfsg-2")
           :client (client nil nil)
+          :generator(->> r
+                         (gen/stagger 1)
+                         (gen/clients)
+                         (gen/time-limit 15))
           }))
 
 (defn -main

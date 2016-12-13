@@ -1,0 +1,166 @@
+2	:invoke	:write	0
+2	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+4	:invoke	:write	3
+4	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+0	:invoke	:write	3
+0	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+7	:invoke	:write	3
+7	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+1	:invoke	:write	1
+1	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+3	:invoke	:write	3
+3	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+6	:invoke	:write	3
+6	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+11	:invoke	:write	0
+11	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+9	:invoke	:write	0
+9	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+12	:invoke	:write	0
+12	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+5	:invoke	:write	0
+5	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+10	:invoke	:write	4
+10	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+8	:invoke	:write	2
+8	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+17	:invoke	:write	1
+17	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+16	:invoke	:write	2
+16	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+14	:invoke	:write	4
+14	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+22	:invoke	:write	3
+22	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+15	:invoke	:write	1
+15	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+13	:invoke	:write	1
+13	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+21	:invoke	:write	0
+21	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+20	:invoke	:write	3
+20	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+19	:invoke	:write	3
+19	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+24	:invoke	:write	0
+24	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+27	:invoke	:write	0
+27	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+32	:invoke	:write	2
+32	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+25	:invoke	:write	0
+25	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+30	:invoke	:write	1
+30	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+29	:invoke	:write	2
+29	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+35	:invoke	:write	3
+35	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+18	:invoke	:write	0
+18	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+40	:invoke	:write	0
+40	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+26	:invoke	:write	4
+26	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+34	:invoke	:write	1
+34	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+37	:invoke	:write	2
+37	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+23	:invoke	:write	2
+23	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+39	:invoke	:write	0
+39	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+42	:invoke	:write	1
+42	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+44	:invoke	:write	2
+44	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+28	:invoke	:write	2
+28	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+33	:invoke	:write	1
+33	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+45	:invoke	:write	0
+45	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+31	:invoke	:write	0
+31	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+47	:invoke	:write	1
+47	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+52	:invoke	:write	2
+52	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+49	:invoke	:write	4
+49	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+54	:invoke	:write	4
+54	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+38	:invoke	:write	0
+38	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+59	:invoke	:write	2
+59	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+50	:invoke	:write	1
+50	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+55	:invoke	:write	4
+55	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+57	:invoke	:write	3
+57	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+36	:invoke	:write	0
+36	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+62	:invoke	:write	3
+62	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+60	:invoke	:write	3
+60	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+43	:invoke	:write	2
+43	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+65	:invoke	:write	0
+65	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+64	:invoke	:write	0
+64	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+67	:invoke	:write	3
+67	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+41	:invoke	:write	4
+41	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+72	:invoke	:write	2
+72	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+70	:invoke	:write	4
+70	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+69	:invoke	:write	1
+69	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+74	:invoke	:write	0
+74	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+48	:invoke	:write	0
+48	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
+46	:invoke	:write	2
+46	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+75	:invoke	:write	1
+75	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+79	:invoke	:write	1
+79	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+51	:invoke	:write	4
+51	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+80	:invoke	:write	4
+80	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+77	:invoke	:write	1
+77	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+56	:invoke	:write	3
+56	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+53	:invoke	:write	2
+53	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+85	:invoke	:write	1
+85	:info	:write	1	indeterminate: Assert failed: (= (:process op) (:process completion))
+84	:invoke	:write	3
+84	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+82	:invoke	:write	2
+82	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+87	:invoke	:write	3
+87	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+61	:invoke	:write	2
+61	:info	:write	2	indeterminate: Assert failed: (= (:process op) (:process completion))
+90	:invoke	:write	3
+90	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+58	:invoke	:write	3
+58	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+92	:invoke	:write	4
+92	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+89	:invoke	:write	3
+89	:info	:write	3	indeterminate: Assert failed: (= (:process op) (:process completion))
+95	:invoke	:write	4
+95	:info	:write	4	indeterminate: Assert failed: (= (:process op) (:process completion))
+66	:invoke	:write	0
+66	:info	:write	0	indeterminate: Assert failed: (= (:process op) (:process completion))
