@@ -1,0 +1,152 @@
+4	:invoke	:cas	[0 0]
+4	:info	:cas	[0 0]	indeterminate: java.lang.Integer cannot be cast to clojure.lang.Associative
+2	:invoke	:read	nil
+2	:ok	:read	0
+9	:invoke	:write	4
+9	:ok	:write	4
+1	:invoke	:cas	[0 3]
+1	:info	:cas	[0 3]	indeterminate: java.lang.Integer cannot be cast to clojure.lang.Associative
+9	:invoke	:read	nil
+9	:ok	:read	4
+0	:invoke	:read	nil
+0	:ok	:read	0
+3	:invoke	:read	nil
+3	:ok	:read	0
+2	:invoke	:cas	[4 1]
+2	:info	:cas	[4 1]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+6	:invoke	:cas	[0 0]
+6	:info	:cas	[0 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+0	:invoke	:write	3
+0	:ok	:write	3
+9	:invoke	:write	4
+9	:ok	:write	4
+7	:invoke	:read	nil
+7	:ok	:read	0
+7	:invoke	:read	nil
+7	:ok	:read	0
+0	:invoke	:read	nil
+0	:ok	:read	3
+11	:invoke	:write	0
+11	:ok	:write	0
+3	:invoke	:write	1
+3	:ok	:write	1
+7	:invoke	:read	nil
+7	:ok	:read	0
+7	:invoke	:cas	[2 1]
+7	:info	:cas	[2 1]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+3	:invoke	:read	nil
+3	:ok	:read	1
+9	:invoke	:cas	[4 3]
+9	:info	:cas	[4 3]	indeterminate: java.lang.Integer cannot be cast to clojure.lang.Associative
+0	:invoke	:write	0
+0	:ok	:write	0
+3	:invoke	:write	3
+11	:invoke	:cas	[0 0]
+3	:ok	:write	3
+11	:info	:cas	[0 0]	indeterminate: java.lang.Integer cannot be cast to clojure.lang.Associative
+14	:invoke	:cas	[2 2]
+14	:info	:cas	[2 2]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+12	:invoke	:read	nil
+12	:ok	:read	0
+0	:invoke	:cas	[1 0]
+0	:info	:cas	[1 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+16	:invoke	:write	3
+16	:ok	:write	3
+3	:invoke	:cas	[0 3]
+3	:info	:cas	[0 3]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+19	:invoke	:read	nil
+19	:ok	:read	3
+16	:invoke	:write	2
+16	:ok	:write	2
+8	:invoke	:read	nil
+8	:ok	:read	3
+12	:invoke	:write	0
+12	:ok	:write	0
+5	:invoke	:cas	[3 0]
+5	:info	:cas	[3 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+12	:invoke	:cas	[3 0]
+12	:info	:cas	[3 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+19	:invoke	:write	0
+19	:ok	:write	0
+8	:invoke	:read	nil
+8	:ok	:read	3
+19	:invoke	:write	1
+19	:ok	:write	1
+17	:invoke	:write	2
+17	:ok	:write	2
+10	:invoke	:write	2
+10	:ok	:write	2
+17	:invoke	:cas	[4 2]
+17	:info	:cas	[4 2]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+16	:invoke	:cas	[0 2]
+16	:info	:cas	[0 2]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+8	:invoke	:read	nil
+8	:ok	:read	3
+10	:invoke	:read	nil
+10	:ok	:read	2
+19	:invoke	:cas	[3 0]
+19	:info	:cas	[3 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+24	:invoke	:read	nil
+24	:ok	:read	1
+10	:invoke	:write	3
+10	:ok	:write	3
+8	:invoke	:cas	[1 3]
+8	:info	:cas	[1 3]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+22	:invoke	:write	4
+22	:ok	:write	4
+21	:invoke	:cas	[3 0]
+21	:info	:cas	[3 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+26	:invoke	:read	nil
+26	:ok	:read	2
+22	:invoke	:read	nil
+22	:ok	:read	4
+10	:invoke	:read	nil
+10	:ok	:read	3
+13	:invoke	:write	4
+13	:ok	:write	4
+24	:invoke	:write	3
+24	:ok	:write	3
+10	:invoke	:write	1
+10	:ok	:write	1
+26	:invoke	:read	nil
+26	:ok	:read	2
+22	:invoke	:cas	[0 0]
+22	:info	:cas	[0 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+27	:invoke	:read	nil
+27	:ok	:read	4
+13	:invoke	:cas	[2 0]
+13	:info	:cas	[2 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+24	:invoke	:write	0
+24	:ok	:write	0
+10	:invoke	:write	2
+10	:ok	:write	2
+24	:invoke	:cas	[3 1]
+24	:info	:cas	[3 1]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+18	:invoke	:cas	[2 4]
+18	:info	:cas	[2 4]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+26	:invoke	:write	0
+26	:ok	:write	0
+10	:invoke	:cas	[3 2]
+10	:info	:cas	[3 2]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+29	:invoke	:cas	[2 0]
+29	:info	:cas	[2 0]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+27	:invoke	:cas	[0 4]
+27	:info	:cas	[0 4]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+34	:invoke	:read	nil
+34	:ok	:read	0
+26	:invoke	:read	nil
+26	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	2
+26	:invoke	:cas	[2 3]
+26	:info	:cas	[2 3]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+23	:invoke	:read	nil
+23	:ok	:read	4
+34	:invoke	:write	3
+34	:ok	:write	3
+32	:invoke	:cas	[1 1]
+32	:info	:cas	[1 1]	indeterminate: java.lang.Long cannot be cast to clojure.lang.Associative
+15	:invoke	:cas	[2 4]
+15	:info	:cas	[2 4]	indeterminate: java.lang.Integer cannot be cast to clojure.lang.Associative
+31	:invoke	:read	nil
+31	:ok	:read	0

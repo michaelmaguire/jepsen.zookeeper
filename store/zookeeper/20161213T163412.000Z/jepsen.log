@@ -1,0 +1,630 @@
+2016-12-13 16:34:13,233{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 16:34:13,233{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 16:34:13,233{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 16:34:13,233{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 16:34:13,233{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 16:34:13,952{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 tearing down ZK
+2016-12-13 16:34:13,952{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 tearing down ZK
+2016-12-13 16:34:13,952{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 tearing down ZK
+2016-12-13 16:34:13,952{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 tearing down ZK
+2016-12-13 16:34:13,952{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 tearing down ZK
+2016-12-13 16:34:14,155{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on  w1
+2016-12-13 16:34:14,155{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on  w2
+2016-12-13 16:34:14,155{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 Installing ZK 3.4.5+dfsg-2
+2016-12-13 16:34:14,155{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 Installing ZK 3.4.5+dfsg-2
+2016-12-13 16:34:14,156{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on  w4
+2016-12-13 16:34:14,156{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on  w5
+2016-12-13 16:34:14,156{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on  w3
+2016-12-13 16:34:14,156{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 Installing ZK 3.4.5+dfsg-2
+2016-12-13 16:34:14,157{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 Installing ZK 3.4.5+dfsg-2
+2016-12-13 16:34:14,157{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 Installing ZK 3.4.5+dfsg-2
+2016-12-13 16:34:14,465{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 id is 4
+2016-12-13 16:34:14,465{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 id is 2
+2016-12-13 16:34:14,465{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 id is 1
+2016-12-13 16:34:14,465{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 id is 0
+2016-12-13 16:34:14,465{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 id is 3
+2016-12-13 16:34:14,671{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-13 16:34:14,671{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-13 16:34:14,671{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-13 16:34:14,672{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-13 16:34:14,672{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-13 16:34:19,773{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK ready
+2016-12-13 16:34:19,776{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK ready
+2016-12-13 16:34:19,776{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK ready
+2016-12-13 16:34:19,776{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK ready
+2016-12-13 16:34:19,776{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK ready
+2016-12-13 16:34:19,781{GMT}	INFO	[clojure-agent-send-off-pool-4] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@61702bd0
+2016-12-13 16:34:19,781{GMT}	INFO	[clojure-agent-send-off-pool-3] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@3a8f27b6
+2016-12-13 16:34:19,781{GMT}	INFO	[clojure-agent-send-off-pool-0] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@33bf9d3f
+2016-12-13 16:34:19,781{GMT}	INFO	[clojure-agent-send-off-pool-1] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@720d325d
+2016-12-13 16:34:19,781{GMT}	INFO	[clojure-agent-send-off-pool-2] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@6a43f0d9
+2016-12-13 16:34:19,797{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.102:2181
+2016-12-13 16:34:19,797{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.104:2181
+2016-12-13 16:34:19,797{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.101:2181
+2016-12-13 16:34:19,798{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.103:2181
+2016-12-13 16:34:19,799{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.105:2181
+2016-12-13 16:34:19,808{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.32.101:2181, initiating session
+2016-12-13 16:34:19,808{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w3/192.168.32.103:2181, initiating session
+2016-12-13 16:34:19,808{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w4/192.168.32.104:2181, initiating session
+2016-12-13 16:34:19,808{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w5/192.168.32.105:2181, initiating session
+2016-12-13 16:34:19,808{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.32.102:2181, initiating session
+2016-12-13 16:34:19,919{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w4/192.168.32.104:2181, sessionid = 0x158f908d3440000, negotiated timeout = 5000
+2016-12-13 16:34:19,920{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w1/192.168.32.101:2181, sessionid = 0x158f908d3080000, negotiated timeout = 5000
+2016-12-13 16:34:19,927{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w5/192.168.32.105:2181, sessionid = 0x158f908d3f60000, negotiated timeout = 5000
+2016-12-13 16:34:19,931{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w3/192.168.32.103:2181, sessionid = 0x158f908d5b00000, negotiated timeout = 5000
+2016-12-13 16:34:19,946{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w2/192.168.32.102:2181, sessionid = 0x158f908d2fd0000, negotiated timeout = 5000
+2016-12-13 16:34:20,021{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-13 16:34:20,022{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-13 16:34:20,023{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-13 16:34:20,023{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-13 16:34:20,023{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-13 16:34:20,023{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-13 16:34:20,023{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-13 16:34:20,166{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[0 2]
+2016-12-13 16:34:20,193{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 1 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:88) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:20,233{GMT}	INFO	[jepsen worker 1] jepsen.util: 6	:invoke	:read	nil
+2016-12-13 16:34:20,234{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:20,234{GMT}	INFO	[jepsen worker 1] jepsen.util: 6	:ok	:read	0
+2016-12-13 16:34:20,895{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[0 2]
+2016-12-13 16:34:20,937{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 2 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:88) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:21,351{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[0 4]
+2016-12-13 16:34:21,367{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 0 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:88) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:21,827{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	4
+2016-12-13 16:34:21,845{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	4
+2016-12-13 16:34:21,931{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	2
+2016-12-13 16:34:21,944{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	2
+2016-12-13 16:34:22,109{GMT}	INFO	[jepsen worker 1] jepsen.util: 6	:invoke	:cas	[2 2]
+2016-12-13 16:34:22,121{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 6 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:22,193{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	0
+2016-12-13 16:34:22,209{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	0
+2016-12-13 16:34:22,289{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:write	3
+2016-12-13 16:34:22,311{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:ok	:write	3
+2016-12-13 16:34:22,523{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	3
+2016-12-13 16:34:22,538{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	3
+2016-12-13 16:34:23,078{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:read	nil
+2016-12-13 16:34:23,079{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:23,079{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:ok	:read	0
+2016-12-13 16:34:23,113{GMT}	INFO	[jepsen worker 1] jepsen.util: 11	:invoke	:cas	[2 0]
+2016-12-13 16:34:23,126{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 11 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:23,258{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[2 3]
+2016-12-13 16:34:23,279{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 4 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:23,358{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:read	nil
+2016-12-13 16:34:23,360{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 3
+2016-12-13 16:34:23,360{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:ok	:read	3
+2016-12-13 16:34:23,507{GMT}	INFO	[jepsen worker 4] jepsen.util: 9	:invoke	:cas	[4 4]
+2016-12-13 16:34:23,523{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 9 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:88) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:23,666{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[3 3]
+2016-12-13 16:34:23,673{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:read	nil
+2016-12-13 16:34:23,673{GMT}	INFO	[clojure-agent-send-off-pool-9] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:23,674{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:ok	:read	0
+2016-12-13 16:34:23,685{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 3 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:88) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:24,079{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:read	nil
+2016-12-13 16:34:24,080{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:24,080{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:ok	:read	0
+2016-12-13 16:34:24,161{GMT}	INFO	[jepsen worker 1] jepsen.util: 16	:invoke	:read	nil
+2016-12-13 16:34:24,161{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:24,162{GMT}	INFO	[jepsen worker 1] jepsen.util: 16	:ok	:read	0
+2016-12-13 16:34:24,662{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:invoke	:write	4
+2016-12-13 16:34:24,678{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:ok	:write	4
+2016-12-13 16:34:24,782{GMT}	INFO	[jepsen worker 1] jepsen.util: 16	:invoke	:cas	[3 2]
+2016-12-13 16:34:24,793{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 16 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:25,267{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:cas	[4 2]
+2016-12-13 16:34:25,307{GMT}	INFO	[jepsen worker 4] jepsen.util: 14	:invoke	:read	nil
+2016-12-13 16:34:25,308{GMT}	INFO	[clojure-agent-send-off-pool-9] jepsen.zookeeper: log from test 4
+2016-12-13 16:34:25,308{GMT}	INFO	[jepsen worker 4] jepsen.util: 14	:ok	:read	4
+2016-12-13 16:34:25,315{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 5 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:25,353{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:read	nil
+2016-12-13 16:34:25,354{GMT}	INFO	[clojure-agent-send-off-pool-6] jepsen.zookeeper: log from test 3
+2016-12-13 16:34:25,354{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:ok	:read	3
+2016-12-13 16:34:25,613{GMT}	INFO	[jepsen worker 1] jepsen.util: 21	:invoke	:cas	[3 1]
+2016-12-13 16:34:25,627{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 21 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:25,803{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:invoke	:read	nil
+2016-12-13 16:34:25,804{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 4
+2016-12-13 16:34:25,805{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:ok	:read	4
+2016-12-13 16:34:26,174{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:read	nil
+2016-12-13 16:34:26,175{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 3
+2016-12-13 16:34:26,175{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:ok	:read	3
+2016-12-13 16:34:26,436{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:invoke	:read	nil
+2016-12-13 16:34:26,436{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 4
+2016-12-13 16:34:26,437{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:ok	:read	4
+2016-12-13 16:34:26,528{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:read	nil
+2016-12-13 16:34:26,529{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 3
+2016-12-13 16:34:26,529{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:ok	:read	3
+2016-12-13 16:34:26,560{GMT}	INFO	[jepsen worker 0] jepsen.util: 10	:invoke	:cas	[0 0]
+2016-12-13 16:34:26,572{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 10 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:88) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:26,946{GMT}	INFO	[jepsen worker 4] jepsen.util: 14	:invoke	:cas	[1 1]
+2016-12-13 16:34:26,961{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 14 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:27,369{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:invoke	:read	nil
+2016-12-13 16:34:27,369{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 4
+2016-12-13 16:34:27,369{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:ok	:read	4
+2016-12-13 16:34:27,497{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:read	nil
+2016-12-13 16:34:27,497{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 3
+2016-12-13 16:34:27,498{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:ok	:read	3
+2016-12-13 16:34:27,536{GMT}	INFO	[jepsen worker 1] jepsen.util: 26	:invoke	:cas	[4 1]
+2016-12-13 16:34:27,548{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 26 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:27,636{GMT}	INFO	[jepsen worker 0] jepsen.util: 15	:invoke	:cas	[1 2]
+2016-12-13 16:34:27,648{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 15 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:27,712{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:invoke	:write	0
+2016-12-13 16:34:27,727{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:ok	:write	0
+2016-12-13 16:34:27,740{GMT}	INFO	[jepsen worker 1] jepsen.util: 31	:invoke	:read	nil
+2016-12-13 16:34:27,740{GMT}	INFO	[clojure-agent-send-off-pool-6] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:27,741{GMT}	INFO	[jepsen worker 1] jepsen.util: 31	:ok	:read	0
+2016-12-13 16:34:27,890{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:invoke	:read	nil
+2016-12-13 16:34:27,890{GMT}	INFO	[clojure-agent-send-off-pool-6] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:27,890{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:ok	:read	0
+2016-12-13 16:34:28,016{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:invoke	:read	nil
+2016-12-13 16:34:28,016{GMT}	INFO	[clojure-agent-send-off-pool-6] jepsen.zookeeper: log from test 4
+2016-12-13 16:34:28,016{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:ok	:read	4
+2016-12-13 16:34:28,658{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:invoke	:read	nil
+2016-12-13 16:34:28,659{GMT}	INFO	[clojure-agent-send-off-pool-6] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:28,659{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:ok	:read	0
+2016-12-13 16:34:28,757{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:write	4
+2016-12-13 16:34:28,768{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:invoke	:write	1
+2016-12-13 16:34:28,772{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:ok	:write	4
+2016-12-13 16:34:28,787{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:ok	:write	1
+2016-12-13 16:34:28,834{GMT}	INFO	[jepsen worker 1] jepsen.util: 31	:invoke	:read	nil
+2016-12-13 16:34:28,834{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 0
+2016-12-13 16:34:28,834{GMT}	INFO	[jepsen worker 1] jepsen.util: 31	:ok	:read	0
+2016-12-13 16:34:29,397{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:invoke	:cas	[0 2]
+2016-12-13 16:34:29,410{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 8 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:29,577{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:invoke	:write	3
+2016-12-13 16:34:29,591{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:ok	:write	3
+2016-12-13 16:34:29,797{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:invoke	:read	nil
+2016-12-13 16:34:29,799{GMT}	INFO	[clojure-agent-send-off-pool-8] jepsen.zookeeper: log from test 3
+2016-12-13 16:34:29,799{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:ok	:read	3
+2016-12-13 16:34:29,804{GMT}	INFO	[jepsen worker 1] jepsen.util: 31	:invoke	:cas	[1 1]
+2016-12-13 16:34:29,816{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 31 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:90) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:29,849{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:invoke	:write	0
+2016-12-13 16:34:29,864{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:ok	:write	0
+2016-12-13 16:34:30,034{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:cas	[4 0]
+2016-12-13 16:34:30,046{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 7 indeterminate
+java.lang.ClassCastException: clojure.core$type cannot be cast to clojure.lang.IAtom
+	at clojure.core$reset_BANG_.invokeStatic(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at clojure.core$reset_BANG_.invoke(core.clj:2273) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874$fn__1877.invoke(zookeeper.clj:88) ~[na:na]
+	at clojure.lang.AFn.applyToHelper(AFn.java:154) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.applyTo(AFn.java:144) [clojure-1.8.0.jar:na]
+	at clojure.core$apply.invokeStatic(core.clj:648) ~[clojure-1.8.0.jar:na]
+	at clojure.core$apply.invoke(core.clj:641) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:86) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 16:34:30,235{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:invoke	:write	0
+2016-12-13 16:34:30,252{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:ok	:write	0
