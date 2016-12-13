@@ -1,0 +1,128 @@
+4	:invoke	:write	0
+4	:info	:write	0	indeterminate: No matching clause: :write
+0	:invoke	:write	3
+0	:info	:write	3	indeterminate: No matching clause: :write
+2	:invoke	:write	4
+2	:info	:write	4	indeterminate: No matching clause: :write
+1	:invoke	:write	4
+1	:info	:write	4	indeterminate: No matching clause: :write
+3	:invoke	:write	0
+3	:info	:write	0	indeterminate: No matching clause: :write
+9	:invoke	:write	4
+9	:info	:write	4	indeterminate: No matching clause: :write
+6	:invoke	:write	1
+6	:info	:write	1	indeterminate: No matching clause: :write
+5	:invoke	:write	4
+5	:info	:write	4	indeterminate: No matching clause: :write
+7	:invoke	:write	0
+7	:info	:write	0	indeterminate: No matching clause: :write
+11	:invoke	:write	1
+11	:info	:write	1	indeterminate: No matching clause: :write
+8	:invoke	:write	1
+8	:info	:write	1	indeterminate: No matching clause: :write
+14	:invoke	:write	4
+14	:info	:write	4	indeterminate: No matching clause: :write
+10	:invoke	:write	2
+10	:info	:write	2	indeterminate: No matching clause: :write
+15	:invoke	:write	0
+15	:info	:write	0	indeterminate: No matching clause: :write
+12	:invoke	:write	4
+12	:info	:write	4	indeterminate: No matching clause: :write
+19	:invoke	:write	3
+19	:info	:write	3	indeterminate: No matching clause: :write
+16	:invoke	:write	0
+16	:info	:write	0	indeterminate: No matching clause: :write
+13	:invoke	:write	0
+13	:info	:write	0	indeterminate: No matching clause: :write
+17	:invoke	:write	2
+17	:info	:write	2	indeterminate: No matching clause: :write
+20	:invoke	:write	3
+20	:info	:write	3	indeterminate: No matching clause: :write
+24	:invoke	:write	0
+24	:info	:write	0	indeterminate: No matching clause: :write
+21	:invoke	:write	1
+21	:info	:write	1	indeterminate: No matching clause: :write
+18	:invoke	:write	1
+18	:info	:write	1	indeterminate: No matching clause: :write
+26	:invoke	:write	0
+26	:info	:write	0	indeterminate: No matching clause: :write
+22	:invoke	:write	2
+22	:info	:write	2	indeterminate: No matching clause: :write
+25	:invoke	:write	2
+25	:info	:write	2	indeterminate: No matching clause: :write
+29	:invoke	:write	4
+29	:info	:write	4	indeterminate: No matching clause: :write
+31	:invoke	:write	4
+31	:info	:write	4	indeterminate: No matching clause: :write
+27	:invoke	:write	2
+27	:info	:write	2	indeterminate: No matching clause: :write
+32	:invoke	:write	3
+32	:info	:write	3	indeterminate: No matching clause: :write
+23	:invoke	:write	1
+23	:info	:write	1	indeterminate: No matching clause: :write
+34	:invoke	:write	0
+34	:info	:write	0	indeterminate: No matching clause: :write
+36	:invoke	:write	4
+36	:info	:write	4	indeterminate: No matching clause: :write
+37	:invoke	:write	3
+37	:info	:write	3	indeterminate: No matching clause: :write
+30	:invoke	:write	0
+30	:info	:write	0	indeterminate: No matching clause: :write
+39	:invoke	:write	2
+39	:info	:write	2	indeterminate: No matching clause: :write
+44	:invoke	:write	1
+44	:info	:write	1	indeterminate: No matching clause: :write
+42	:invoke	:write	3
+42	:info	:write	3	indeterminate: No matching clause: :write
+41	:invoke	:write	4
+41	:info	:write	4	indeterminate: No matching clause: :write
+28	:invoke	:write	4
+28	:info	:write	4	indeterminate: No matching clause: :write
+35	:invoke	:write	3
+35	:info	:write	3	indeterminate: No matching clause: :write
+46	:invoke	:write	2
+46	:info	:write	2	indeterminate: No matching clause: :write
+47	:invoke	:write	4
+47	:info	:write	4	indeterminate: No matching clause: :write
+33	:invoke	:write	0
+33	:info	:write	0	indeterminate: No matching clause: :write
+51	:invoke	:write	1
+51	:info	:write	1	indeterminate: No matching clause: :write
+49	:invoke	:write	1
+49	:info	:write	1	indeterminate: No matching clause: :write
+40	:invoke	:write	0
+40	:info	:write	0	indeterminate: No matching clause: :write
+52	:invoke	:write	2
+52	:info	:write	2	indeterminate: No matching clause: :write
+56	:invoke	:write	3
+56	:info	:write	3	indeterminate: No matching clause: :write
+45	:invoke	:write	0
+45	:info	:write	0	indeterminate: No matching clause: :write
+61	:invoke	:write	1
+61	:info	:write	1	indeterminate: No matching clause: :write
+57	:invoke	:write	1
+57	:info	:write	1	indeterminate: No matching clause: :write
+50	:invoke	:write	3
+50	:info	:write	3	indeterminate: No matching clause: :write
+54	:invoke	:write	3
+54	:info	:write	3	indeterminate: No matching clause: :write
+55	:invoke	:write	2
+55	:info	:write	2	indeterminate: No matching clause: :write
+38	:invoke	:write	3
+38	:info	:write	3	indeterminate: No matching clause: :write
+66	:invoke	:write	1
+66	:info	:write	1	indeterminate: No matching clause: :write
+59	:invoke	:write	3
+59	:info	:write	3	indeterminate: No matching clause: :write
+62	:invoke	:write	0
+62	:info	:write	0	indeterminate: No matching clause: :write
+67	:invoke	:write	0
+67	:info	:write	0	indeterminate: No matching clause: :write
+64	:invoke	:write	2
+64	:info	:write	2	indeterminate: No matching clause: :write
+71	:invoke	:write	1
+71	:info	:write	1	indeterminate: No matching clause: :write
+60	:invoke	:write	3
+60	:info	:write	3	indeterminate: No matching clause: :write
+43	:invoke	:write	1
+43	:info	:write	1	indeterminate: No matching clause: :write

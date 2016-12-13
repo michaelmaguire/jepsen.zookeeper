@@ -65,7 +65,7 @@
                ["/var/log/zookeeper/zookeeper.log"])))
 
 (defn r  [_ _] {:type :invoke, :f :read, :value nil})
-(defn r  [_ _] {:type :invoke, :f :write, :value (rand-int 5)})
+(defn w  [_ _] {:type :invoke, :f :write, :value (rand-int 5)})
 (defn cas [_ _] {:type :invoke, :f :cas, :value [(rand-int 5) (rand-int 5)]})
 
 (defn client
@@ -76,7 +76,10 @@
       (let [conn (avout/connect (name node))
             a (avout/zk-atom conn "/jepsen" 0)]
       (client conn a)))
-    (invoke! [this test op])
+    (invoke! [this test op]
+      (timeout 5000 (assoc op :type :info, :error :timeout)
+               (case (:f op)
+                 :read (assoc op :type :ok, :value @a))))
     (teardown! [_ test]
       (.close conn))))
 

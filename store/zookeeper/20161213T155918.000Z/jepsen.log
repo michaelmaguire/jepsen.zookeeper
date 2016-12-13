@@ -1,0 +1,1129 @@
+2016-12-13 15:59:19,128{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 15:59:19,128{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 15:59:19,128{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 15:59:19,128{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 15:59:19,128{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 15:59:19,845{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 tearing down ZK
+2016-12-13 15:59:19,845{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 tearing down ZK
+2016-12-13 15:59:19,846{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 tearing down ZK
+2016-12-13 15:59:19,846{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 tearing down ZK
+2016-12-13 15:59:19,846{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 tearing down ZK
+2016-12-13 15:59:20,048{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on  w2
+2016-12-13 15:59:20,048{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on  w4
+2016-12-13 15:59:20,048{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on  w3
+2016-12-13 15:59:20,048{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 Installing ZK 3.4.5+dfsg-2
+2016-12-13 15:59:20,048{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 Installing ZK 3.4.5+dfsg-2
+2016-12-13 15:59:20,048{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 Installing ZK 3.4.5+dfsg-2
+2016-12-13 15:59:20,049{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on  w5
+2016-12-13 15:59:20,049{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on  w1
+2016-12-13 15:59:20,050{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 Installing ZK 3.4.5+dfsg-2
+2016-12-13 15:59:20,050{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 Installing ZK 3.4.5+dfsg-2
+2016-12-13 15:59:20,356{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 id is 0
+2016-12-13 15:59:20,356{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 id is 1
+2016-12-13 15:59:20,356{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 id is 3
+2016-12-13 15:59:20,358{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 id is 4
+2016-12-13 15:59:20,358{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 id is 2
+2016-12-13 15:59:20,561{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-13 15:59:20,561{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-13 15:59:20,562{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-13 15:59:20,562{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-13 15:59:20,562{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-13 15:59:25,663{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK ready
+2016-12-13 15:59:25,663{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK ready
+2016-12-13 15:59:25,663{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK ready
+2016-12-13 15:59:25,663{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK ready
+2016-12-13 15:59:25,664{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK ready
+2016-12-13 15:59:25,669{GMT}	INFO	[clojure-agent-send-off-pool-2] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@1f224814
+2016-12-13 15:59:25,669{GMT}	INFO	[clojure-agent-send-off-pool-1] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@51f26cdb
+2016-12-13 15:59:25,669{GMT}	INFO	[clojure-agent-send-off-pool-4] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@6593ed7f
+2016-12-13 15:59:25,669{GMT}	INFO	[clojure-agent-send-off-pool-3] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@136d9bcb
+2016-12-13 15:59:25,670{GMT}	INFO	[clojure-agent-send-off-pool-0] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@111a4f7
+2016-12-13 15:59:25,685{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.104:2181
+2016-12-13 15:59:25,686{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.102:2181
+2016-12-13 15:59:25,686{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.101:2181
+2016-12-13 15:59:25,686{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.103:2181
+2016-12-13 15:59:25,690{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.32.105:2181
+2016-12-13 15:59:25,698{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w4/192.168.32.104:2181, initiating session
+2016-12-13 15:59:25,698{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.32.101:2181, initiating session
+2016-12-13 15:59:25,698{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w5/192.168.32.105:2181, initiating session
+2016-12-13 15:59:25,702{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w3/192.168.32.103:2181, initiating session
+2016-12-13 15:59:25,702{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.32.102:2181, initiating session
+2016-12-13 15:59:25,805{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w5/192.168.32.105:2181, sessionid = 0x158f8e8dfdd0000, negotiated timeout = 5000
+2016-12-13 15:59:25,815{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w3/192.168.32.103:2181, sessionid = 0x158f8e8e1840000, negotiated timeout = 5000
+2016-12-13 15:59:25,817{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w1/192.168.32.101:2181, sessionid = 0x158f8e8dedb0000, negotiated timeout = 5000
+2016-12-13 15:59:25,826{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w2/192.168.32.102:2181, sessionid = 0x158f8e8df1f0000, negotiated timeout = 5000
+2016-12-13 15:59:25,827{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w4/192.168.32.104:2181, sessionid = 0x158f8e8df190000, negotiated timeout = 5000
+2016-12-13 15:59:25,912{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-13 15:59:25,913{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-13 15:59:25,914{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-13 15:59:25,914{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-13 15:59:25,914{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-13 15:59:25,914{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-13 15:59:25,914{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-13 15:59:26,340{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	0
+2016-12-13 15:59:26,348{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 4 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:27,146{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	3
+2016-12-13 15:59:27,147{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 0 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:27,246{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	4
+2016-12-13 15:59:27,247{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 2 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:27,844{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	4
+2016-12-13 15:59:27,845{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 1 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:27,847{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	0
+2016-12-13 15:59:27,848{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 3 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:28,233{GMT}	INFO	[jepsen worker 4] jepsen.util: 9	:invoke	:write	4
+2016-12-13 15:59:28,234{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 9 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:28,435{GMT}	INFO	[jepsen worker 1] jepsen.util: 6	:invoke	:write	1
+2016-12-13 15:59:28,436{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 6 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:29,002{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:write	4
+2016-12-13 15:59:29,003{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 5 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:29,059{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:write	0
+2016-12-13 15:59:29,059{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 7 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:29,672{GMT}	INFO	[jepsen worker 1] jepsen.util: 11	:invoke	:write	1
+2016-12-13 15:59:29,673{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 11 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:29,698{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:invoke	:write	1
+2016-12-13 15:59:29,698{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 8 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:29,861{GMT}	INFO	[jepsen worker 4] jepsen.util: 14	:invoke	:write	4
+2016-12-13 15:59:29,862{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 14 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:30,282{GMT}	INFO	[jepsen worker 0] jepsen.util: 10	:invoke	:write	2
+2016-12-13 15:59:30,283{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 10 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:30,690{GMT}	INFO	[jepsen worker 0] jepsen.util: 15	:invoke	:write	0
+2016-12-13 15:59:30,752{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 15 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:30,874{GMT}	INFO	[jepsen worker 2] jepsen.util: 12	:invoke	:write	4
+2016-12-13 15:59:30,875{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 12 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:31,028{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:invoke	:write	3
+2016-12-13 15:59:31,029{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 19 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:31,533{GMT}	INFO	[jepsen worker 1] jepsen.util: 16	:invoke	:write	0
+2016-12-13 15:59:31,534{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 16 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:31,644{GMT}	INFO	[jepsen worker 3] jepsen.util: 13	:invoke	:write	0
+2016-12-13 15:59:31,645{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 13 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:31,784{GMT}	INFO	[jepsen worker 2] jepsen.util: 17	:invoke	:write	2
+2016-12-13 15:59:31,785{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 17 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:32,044{GMT}	INFO	[jepsen worker 0] jepsen.util: 20	:invoke	:write	3
+2016-12-13 15:59:32,045{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 20 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:32,156{GMT}	INFO	[jepsen worker 4] jepsen.util: 24	:invoke	:write	0
+2016-12-13 15:59:32,157{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 24 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:32,555{GMT}	INFO	[jepsen worker 1] jepsen.util: 21	:invoke	:write	1
+2016-12-13 15:59:32,556{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 21 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:33,245{GMT}	INFO	[jepsen worker 3] jepsen.util: 18	:invoke	:write	1
+2016-12-13 15:59:33,247{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 18 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:33,708{GMT}	INFO	[jepsen worker 1] jepsen.util: 26	:invoke	:write	0
+2016-12-13 15:59:33,709{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 26 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:33,752{GMT}	INFO	[jepsen worker 2] jepsen.util: 22	:invoke	:write	2
+2016-12-13 15:59:33,753{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 22 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:34,015{GMT}	INFO	[jepsen worker 0] jepsen.util: 25	:invoke	:write	2
+2016-12-13 15:59:34,016{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 25 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:34,157{GMT}	INFO	[jepsen worker 4] jepsen.util: 29	:invoke	:write	4
+2016-12-13 15:59:34,158{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 29 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:34,264{GMT}	INFO	[jepsen worker 1] jepsen.util: 31	:invoke	:write	4
+2016-12-13 15:59:34,265{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 31 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:34,299{GMT}	INFO	[jepsen worker 2] jepsen.util: 27	:invoke	:write	2
+2016-12-13 15:59:34,300{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 27 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:34,623{GMT}	INFO	[jepsen worker 2] jepsen.util: 32	:invoke	:write	3
+2016-12-13 15:59:34,624{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 32 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:35,157{GMT}	INFO	[jepsen worker 3] jepsen.util: 23	:invoke	:write	1
+2016-12-13 15:59:35,158{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 23 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:35,375{GMT}	INFO	[jepsen worker 4] jepsen.util: 34	:invoke	:write	0
+2016-12-13 15:59:35,376{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 34 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:35,569{GMT}	INFO	[jepsen worker 1] jepsen.util: 36	:invoke	:write	4
+2016-12-13 15:59:35,570{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 36 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:35,609{GMT}	INFO	[jepsen worker 2] jepsen.util: 37	:invoke	:write	3
+2016-12-13 15:59:35,610{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 37 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:35,700{GMT}	INFO	[jepsen worker 0] jepsen.util: 30	:invoke	:write	0
+2016-12-13 15:59:35,701{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 30 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:35,798{GMT}	INFO	[jepsen worker 4] jepsen.util: 39	:invoke	:write	2
+2016-12-13 15:59:35,798{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 39 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:36,461{GMT}	INFO	[jepsen worker 4] jepsen.util: 44	:invoke	:write	1
+2016-12-13 15:59:36,462{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 44 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:36,724{GMT}	INFO	[jepsen worker 2] jepsen.util: 42	:invoke	:write	3
+2016-12-13 15:59:36,725{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 42 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:36,731{GMT}	INFO	[jepsen worker 1] jepsen.util: 41	:invoke	:write	4
+2016-12-13 15:59:36,731{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 41 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:36,775{GMT}	INFO	[jepsen worker 3] jepsen.util: 28	:invoke	:write	4
+2016-12-13 15:59:36,776{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 28 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:36,896{GMT}	INFO	[jepsen worker 0] jepsen.util: 35	:invoke	:write	3
+2016-12-13 15:59:36,897{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 35 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:36,924{GMT}	INFO	[jepsen worker 1] jepsen.util: 46	:invoke	:write	2
+2016-12-13 15:59:36,924{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 46 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:37,011{GMT}	INFO	[jepsen worker 2] jepsen.util: 47	:invoke	:write	4
+2016-12-13 15:59:37,012{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 47 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:37,720{GMT}	INFO	[jepsen worker 3] jepsen.util: 33	:invoke	:write	0
+2016-12-13 15:59:37,721{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 33 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:37,849{GMT}	INFO	[jepsen worker 1] jepsen.util: 51	:invoke	:write	1
+2016-12-13 15:59:37,850{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 51 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:38,314{GMT}	INFO	[jepsen worker 4] jepsen.util: 49	:invoke	:write	1
+2016-12-13 15:59:38,315{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 49 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:38,338{GMT}	INFO	[jepsen worker 0] jepsen.util: 40	:invoke	:write	0
+2016-12-13 15:59:38,339{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 40 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:38,344{GMT}	INFO	[jepsen worker 2] jepsen.util: 52	:invoke	:write	2
+2016-12-13 15:59:38,345{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 52 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:38,840{GMT}	INFO	[jepsen worker 1] jepsen.util: 56	:invoke	:write	3
+2016-12-13 15:59:38,841{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 56 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:38,953{GMT}	INFO	[jepsen worker 0] jepsen.util: 45	:invoke	:write	0
+2016-12-13 15:59:38,954{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 45 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:39,072{GMT}	INFO	[jepsen worker 1] jepsen.util: 61	:invoke	:write	1
+2016-12-13 15:59:39,073{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 61 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:39,216{GMT}	INFO	[jepsen worker 2] jepsen.util: 57	:invoke	:write	1
+2016-12-13 15:59:39,217{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 57 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:39,268{GMT}	INFO	[jepsen worker 0] jepsen.util: 50	:invoke	:write	3
+2016-12-13 15:59:39,269{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 50 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:39,335{GMT}	INFO	[jepsen worker 4] jepsen.util: 54	:invoke	:write	3
+2016-12-13 15:59:39,336{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 54 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:39,357{GMT}	INFO	[jepsen worker 0] jepsen.util: 55	:invoke	:write	2
+2016-12-13 15:59:39,358{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 55 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:39,362{GMT}	INFO	[jepsen worker 3] jepsen.util: 38	:invoke	:write	3
+2016-12-13 15:59:39,362{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 38 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:40,616{GMT}	INFO	[jepsen worker 1] jepsen.util: 66	:invoke	:write	1
+2016-12-13 15:59:40,616{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 66 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:40,734{GMT}	INFO	[jepsen worker 4] jepsen.util: 59	:invoke	:write	3
+2016-12-13 15:59:40,734{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 59 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:40,822{GMT}	INFO	[jepsen worker 2] jepsen.util: 62	:invoke	:write	0
+2016-12-13 15:59:40,823{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 62 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:41,053{GMT}	INFO	[jepsen worker 2] jepsen.util: 67	:invoke	:write	0
+2016-12-13 15:59:41,054{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 67 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:41,054{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 done
+2016-12-13 15:59:41,090{GMT}	INFO	[jepsen worker 4] jepsen.util: 64	:invoke	:write	2
+2016-12-13 15:59:41,091{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 64 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:41,091{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 done
+2016-12-13 15:59:41,093{GMT}	INFO	[jepsen worker 1] jepsen.util: 71	:invoke	:write	1
+2016-12-13 15:59:41,093{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 71 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:41,093{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 done
+2016-12-13 15:59:41,174{GMT}	INFO	[jepsen worker 0] jepsen.util: 60	:invoke	:write	3
+2016-12-13 15:59:41,175{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 60 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:41,175{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-13 15:59:41,269{GMT}	INFO	[jepsen worker 3] jepsen.util: 43	:invoke	:write	1
+2016-12-13 15:59:41,270{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 43 indeterminate
+java.lang.IllegalArgumentException: No matching clause: :write
+	at jepsen.zookeeper$client$reify__1873$fn__1874.invoke(zookeeper.clj:81) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-13 15:59:41,270{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 done
+2016-12-13 15:59:41,270{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-13 15:59:41,271{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-13 15:59:41,271{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-13 15:59:41,271{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-13 15:59:41,274{GMT}	INFO	[clojure-agent-send-off-pool-3] org.apache.zookeeper.ZooKeeper: Session: 0x158f8e8df190000 closed
+2016-12-13 15:59:41,274{GMT}	INFO	[clojure-agent-send-off-pool-4-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-7] org.apache.zookeeper.ZooKeeper: Session: 0x158f8e8dedb0000 closed
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-8] org.apache.zookeeper.ZooKeeper: Session: 0x158f8e8df1f0000 closed
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-0-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-1-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-9] org.apache.zookeeper.ZooKeeper: Session: 0x158f8e8e1840000 closed
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-3-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-5] org.apache.zookeeper.ZooKeeper: Session: 0x158f8e8dfdd0000 closed
+2016-12-13 15:59:41,275{GMT}	INFO	[clojure-agent-send-off-pool-2-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:59:41,276{GMT}	INFO	[jepsen test runner] jepsen.core: Snarfing log files
+2016-12-13 15:59:41,280{GMT}	INFO	[jepsen node w5] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:59:41,280{GMT}	INFO	[jepsen node w4] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:59:41,280{GMT}	INFO	[jepsen node w3] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:59:41,280{GMT}	INFO	[jepsen node w2] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:59:41,280{GMT}	INFO	[jepsen node w1] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:59:41,295{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-13 15:59:41,323{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 tearing down ZK
+2016-12-13 15:59:41,323{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 tearing down ZK
+2016-12-13 15:59:41,323{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 tearing down ZK
+2016-12-13 15:59:41,324{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 tearing down ZK
+2016-12-13 15:59:41,324{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 tearing down ZK
+2016-12-13 15:59:41,934{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-13 15:59:41,949{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-13 15:59:42,159{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T155918.000Z/results.edn
+2016-12-13 15:59:42,349{GMT}	INFO	[main] jepsen.core: {:valid? true,
+ :configs
+ ({:model {},
+   :last-op nil,
+   :pending
+   [{:type :invoke,
+     :f :write,
+     :value 3,
+     :process 0,
+     :time 1479548489,
+     :index 2}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 1,
+     :time 2178258086,
+     :index 6}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 2,
+     :time 1580249834,
+     :index 4}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 3,
+     :time 2181478577,
+     :index 8}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 4,
+     :time 672534386,
+     :index 0}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 5,
+     :time 3335592889,
+     :index 14}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 6,
+     :time 2768817385,
+     :index 12}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 7,
+     :time 3392663708,
+     :index 16}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 8,
+     :time 4031696536,
+     :index 20}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 9,
+     :time 2567234894,
+     :index 10}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 10,
+     :time 4616110744,
+     :index 24}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 11,
+     :time 4006116293,
+     :index 18}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 12,
+     :time 5207851028,
+     :index 28}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 13,
+     :time 5977865279,
+     :index 34}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 14,
+     :time 4194589266,
+     :index 22}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 15,
+     :time 5023804587,
+     :index 26}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 16,
+     :time 5866794537,
+     :index 32}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 17,
+     :time 6118461374,
+     :index 36}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 18,
+     :time 7579448019,
+     :index 44}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 19,
+     :time 5362061523,
+     :index 30}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 20,
+     :time 6378425303,
+     :index 38}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 21,
+     :time 6889240070,
+     :index 42}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 22,
+     :time 8085991454,
+     :index 48}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 23,
+     :time 9491037976,
+     :index 60}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 24,
+     :time 6490099234,
+     :index 40}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 25,
+     :time 8348929008,
+     :index 50}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 26,
+     :time 8041730238,
+     :index 46}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 27,
+     :time 8633293848,
+     :index 56}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 28,
+     :time 11108771575,
+     :index 78}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 29,
+     :time 8490721515,
+     :index 52}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 30,
+     :time 10034287750,
+     :index 68}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 31,
+     :time 8598229416,
+     :index 54}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 32,
+     :time 8956695172,
+     :index 58}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 33,
+     :time 12054223893,
+     :index 86}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 34,
+     :time 9709048974,
+     :index 62}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 35,
+     :time 11229810515,
+     :index 80}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 36,
+     :time 9903482999,
+     :index 64}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 37,
+     :time 9942491524,
+     :index 66}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 38,
+     :time 13695607277,
+     :index 110}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 39,
+     :time 10131668070,
+     :index 70}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 40,
+     :time 12672087019,
+     :index 92}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 41,
+     :time 11064652104,
+     :index 76}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 42,
+     :time 11058132688,
+     :index 74}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 43,
+     :time 15603510267,
+     :index 126}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 44,
+     :time 10794833436,
+     :index 72}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 45,
+     :time 13287094484,
+     :index 98}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 46,
+     :time 11257891571,
+     :index 82}
+    {:type :invoke,
+     :f :write,
+     :value 4,
+     :process 47,
+     :time 11344826518,
+     :index 84}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 49,
+     :time 12647824155,
+     :index 90}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 50,
+     :time 13602266981,
+     :index 104}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 51,
+     :time 12182849852,
+     :index 88}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 52,
+     :time 12678093557,
+     :index 94}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 54,
+     :time 13669088709,
+     :index 106}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 55,
+     :time 13691357719,
+     :index 108}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 56,
+     :time 13174008353,
+     :index 96}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 57,
+     :time 13550169246,
+     :index 102}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 59,
+     :time 15068001233,
+     :index 114}
+    {:type :invoke,
+     :f :write,
+     :value 3,
+     :process 60,
+     :time 15508478103,
+     :index 124}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 61,
+     :time 13406541029,
+     :index 100}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 62,
+     :time 15156346159,
+     :index 116}
+    {:type :invoke,
+     :f :write,
+     :value 2,
+     :process 64,
+     :time 15424501517,
+     :index 120}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 66,
+     :time 14949527354,
+     :index 112}
+    {:type :invoke,
+     :f :write,
+     :value 0,
+     :process 67,
+     :time 15387365113,
+     :index 118}
+    {:type :invoke,
+     :f :write,
+     :value 1,
+     :process 71,
+     :time 15426763572,
+     :index 122}]}),
+ :final-paths ()}
+
+
+Everything looks good! ヽ(‘ー`)ノ

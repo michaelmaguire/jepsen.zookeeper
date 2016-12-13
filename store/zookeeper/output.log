@@ -1,19 +1,19 @@
-15:56:27.279 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.0-1202560, built on 11/16/2011 07:18 GMT
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=ip-192-168-32-100.eu-west-1.compute.internal
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_111
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/admin/jepsen.zookeeper/test:/home/admin/jepsen.zookeeper/src:/home/admin/jepsen.zookeeper/dev-resources:/home/admin/jepsen.zookeeper/resources:/home/admin/jepsen.zookeeper/target/classes:/home/admin/.m2/repository/clj-time/clj-time/0.11.0/clj-time-0.11.0.jar:/home/admin/.m2/repository/avout/avout/0.5.4/avout-0.5.4.jar:/home/admin/.m2/repository/org/clojure/math.combinatorics/0.1.1/math.combinatorics-0.1.1.jar:/home/admin/.m2/repository/org/clojure/java.classpath/0.2.2/java.classpath-0.2.2.jar:/home/admin/.m2/repository/jepsen/jepsen/0.1.4/jepsen-0.1.4.jar:/home/admin/.m2/repository/org/apache/zookeeper/zookeeper/3.4.0/zookeeper-3.4.0.jar:/home/admin/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar:/home/admin/.m2/repository/net/logstash/logback/logstash-logback-encoder/4.2/logstash-logback-encoder-4.2.jar:/home/admin/.m2/repository/org/clojure/algo.generic/0.1.2/algo.generic-0.1.2.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.jar:/home/admin/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/admin/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar:/home/admin/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/home/admin/.m2/repository/spootnik/unilog/0.7.13/unilog-0.7.13.jar:/home/admin/.m2/repository/ring/ring-servlet/1.6.0-beta5/ring-servlet-1.6.0-beta5.jar:/home/admin/.m2/repository/interval-metrics/interval-metrics/1.0.0/interval-metrics-1.0.0.jar:/home/admin/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/home/admin/.m2/repository/ring/ring-codec/1.0.1/ring-codec-1.0.1.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/home/admin/.m2/repository/org/clojure/tools.cli/0.3.5/tools.cli-0.3.5.jar:/home/admin/.m2/repository/ring/ring/1.6.0-beta5/ring-1.6.0-beta5.jar:/home/admin/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.12/log4j-over-slf4j-1.7.12.jar:/home/admin/.m2/repository/io/aleph/dirigiste/0.1.3/dirigiste-0.1.3.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar:/home/admin/.m2/repository/org/clojure/tools.nrepl/0.2.12/tools.nrepl-0.2.12.jar:/home/admin/.m2/repository/org/clojure/data.fressian/0.2.1/data.fressian-0.2.1.jar:/home/admin/.m2/repository/zookeeper-clj/zookeeper-clj/0.9.3/zookeeper-clj-0.9.3.jar:/home/admin/.m2/repository/ring/ring-jetty-adapter/1.6.0-beta5/ring-jetty-adapter-1.6.0-beta5.jar:/home/admin/.m2/repository/http-kit/http-kit/2.1.18/http-kit-2.1.18.jar:/home/admin/.m2/repository/clojure-complete/clojure-complete/0.2.4/clojure-complete-0.2.4.jar:/home/admin/.m2/repository/manifold/manifold/0.1.4/manifold-0.1.4.jar:/home/admin/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar:/home/admin/.m2/repository/crypto-equality/crypto-equality/1.0.0/crypto-equality-1.0.0.jar:/home/admin/.m2/repository/potemkin/potemkin/0.4.3/potemkin-0.4.3.jar:/home/admin/.m2/repository/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar:/home/admin/.m2/repository/org/clojars/pallix/analemma/1.0.0/analemma-1.0.0.jar:/home/admin/.m2/repository/ring/ring-devel/1.6.0-beta5/ring-devel-1.6.0-beta5.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.jar:/home/admin/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/home/admin/.m2/repository/ring/ring-core/1.6.0-beta5/ring-core-1.6.0-beta5.jar:/home/admin/.m2/repository/knossos/knossos/0.2.8/knossos-0.2.8.jar:/home/admin/.m2/repository/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2.jar:/home/admin/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/admin/.m2/repository/primitive-math/primitive-math/0.1.5/primitive-math-0.1.5.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar:/home/admin/.m2/repository/org/clojure/tools.logging/0.3.1/tools.logging-0.3.1.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.jar:/home/admin/.m2/repository/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar:/home/admin/.m2/repository/org/clojure/tools.namespace/0.2.10/tools.namespace-0.2.10.jar:/home/admin/.m2/repository/org/fressian/fressian/0.6.6/fressian-0.6.6.jar:/home/admin/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/admin/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/admin/.m2/repository/crypto-random/crypto-random/1.2.0/crypto-random-1.2.0.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar:/home/admin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/admin/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/admin/.m2/repository/riddley/riddley/0.1.12/riddley-0.1.12.jar:/home/admin/.m2/repository/byte-streams/byte-streams/0.2.2/byte-streams-0.2.2.jar:/home/admin/.m2/repository/ns-tracker/ns-tracker/0.3.0/ns-tracker-0.3.0.jar:/home/admin/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/home/admin/.m2/repository/gnuplot/gnuplot/0.1.1/gnuplot-0.1.1.jar:/home/admin/.m2/repository/org/clojars/achim/multiset/0.1.0/multiset-0.1.0.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.0/jackson-core-2.4.0.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.jar:/home/admin/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/home/admin/.m2/repository/clj-ssh/clj-ssh/0.5.14/clj-ssh-0.5.14.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar:/home/admin/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/admin/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar:/home/admin/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.16.0-4-amd64
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=admin
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/admin
-15:56:27.282 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/admin/jepsen.zookeeper
-15:56:27.407 [main] INFO  jepsen.cli - Test options:
+16:00:22.953 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.0-1202560, built on 11/16/2011 07:18 GMT
+16:00:22.956 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=ip-192-168-32-100.eu-west-1.compute.internal
+16:00:22.956 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_111
+16:00:22.956 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+16:00:22.956 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+16:00:22.956 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/admin/jepsen.zookeeper/test:/home/admin/jepsen.zookeeper/src:/home/admin/jepsen.zookeeper/dev-resources:/home/admin/jepsen.zookeeper/resources:/home/admin/jepsen.zookeeper/target/classes:/home/admin/.m2/repository/clj-time/clj-time/0.11.0/clj-time-0.11.0.jar:/home/admin/.m2/repository/avout/avout/0.5.4/avout-0.5.4.jar:/home/admin/.m2/repository/org/clojure/math.combinatorics/0.1.1/math.combinatorics-0.1.1.jar:/home/admin/.m2/repository/org/clojure/java.classpath/0.2.2/java.classpath-0.2.2.jar:/home/admin/.m2/repository/jepsen/jepsen/0.1.4/jepsen-0.1.4.jar:/home/admin/.m2/repository/org/apache/zookeeper/zookeeper/3.4.0/zookeeper-3.4.0.jar:/home/admin/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar:/home/admin/.m2/repository/net/logstash/logback/logstash-logback-encoder/4.2/logstash-logback-encoder-4.2.jar:/home/admin/.m2/repository/org/clojure/algo.generic/0.1.2/algo.generic-0.1.2.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.jar:/home/admin/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/admin/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar:/home/admin/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/home/admin/.m2/repository/spootnik/unilog/0.7.13/unilog-0.7.13.jar:/home/admin/.m2/repository/ring/ring-servlet/1.6.0-beta5/ring-servlet-1.6.0-beta5.jar:/home/admin/.m2/repository/interval-metrics/interval-metrics/1.0.0/interval-metrics-1.0.0.jar:/home/admin/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/home/admin/.m2/repository/ring/ring-codec/1.0.1/ring-codec-1.0.1.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/home/admin/.m2/repository/org/clojure/tools.cli/0.3.5/tools.cli-0.3.5.jar:/home/admin/.m2/repository/ring/ring/1.6.0-beta5/ring-1.6.0-beta5.jar:/home/admin/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.12/log4j-over-slf4j-1.7.12.jar:/home/admin/.m2/repository/io/aleph/dirigiste/0.1.3/dirigiste-0.1.3.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar:/home/admin/.m2/repository/org/clojure/tools.nrepl/0.2.12/tools.nrepl-0.2.12.jar:/home/admin/.m2/repository/org/clojure/data.fressian/0.2.1/data.fressian-0.2.1.jar:/home/admin/.m2/repository/zookeeper-clj/zookeeper-clj/0.9.3/zookeeper-clj-0.9.3.jar:/home/admin/.m2/repository/ring/ring-jetty-adapter/1.6.0-beta5/ring-jetty-adapter-1.6.0-beta5.jar:/home/admin/.m2/repository/http-kit/http-kit/2.1.18/http-kit-2.1.18.jar:/home/admin/.m2/repository/clojure-complete/clojure-complete/0.2.4/clojure-complete-0.2.4.jar:/home/admin/.m2/repository/manifold/manifold/0.1.4/manifold-0.1.4.jar:/home/admin/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar:/home/admin/.m2/repository/crypto-equality/crypto-equality/1.0.0/crypto-equality-1.0.0.jar:/home/admin/.m2/repository/potemkin/potemkin/0.4.3/potemkin-0.4.3.jar:/home/admin/.m2/repository/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar:/home/admin/.m2/repository/org/clojars/pallix/analemma/1.0.0/analemma-1.0.0.jar:/home/admin/.m2/repository/ring/ring-devel/1.6.0-beta5/ring-devel-1.6.0-beta5.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.jar:/home/admin/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/home/admin/.m2/repository/ring/ring-core/1.6.0-beta5/ring-core-1.6.0-beta5.jar:/home/admin/.m2/repository/knossos/knossos/0.2.8/knossos-0.2.8.jar:/home/admin/.m2/repository/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2.jar:/home/admin/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/admin/.m2/repository/primitive-math/primitive-math/0.1.5/primitive-math-0.1.5.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar:/home/admin/.m2/repository/org/clojure/tools.logging/0.3.1/tools.logging-0.3.1.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.jar:/home/admin/.m2/repository/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar:/home/admin/.m2/repository/org/clojure/tools.namespace/0.2.10/tools.namespace-0.2.10.jar:/home/admin/.m2/repository/org/fressian/fressian/0.6.6/fressian-0.6.6.jar:/home/admin/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/admin/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/admin/.m2/repository/crypto-random/crypto-random/1.2.0/crypto-random-1.2.0.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar:/home/admin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/admin/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/admin/.m2/repository/riddley/riddley/0.1.12/riddley-0.1.12.jar:/home/admin/.m2/repository/byte-streams/byte-streams/0.2.2/byte-streams-0.2.2.jar:/home/admin/.m2/repository/ns-tracker/ns-tracker/0.3.0/ns-tracker-0.3.0.jar:/home/admin/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/home/admin/.m2/repository/gnuplot/gnuplot/0.1.1/gnuplot-0.1.1.jar:/home/admin/.m2/repository/org/clojars/achim/multiset/0.1.0/multiset-0.1.0.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.0/jackson-core-2.4.0.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.jar:/home/admin/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/home/admin/.m2/repository/clj-ssh/clj-ssh/0.5.14/clj-ssh-0.5.14.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar:/home/admin/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/admin/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar:/home/admin/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.16.0-4-amd64
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=admin
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/admin
+16:00:22.957 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/admin/jepsen.zookeeper
+16:00:23.062 [main] INFO  jepsen.cli - Test options:
  {:concurrency 5,
  :test-count 1,
  :time-limit 60,
@@ -25,1601 +25,267 @@
   :strict-host-key-checking false,
   :private-key-path nil}}
 
-INFO [2016-12-13 15:56:28,147] jepsen node w2 - jepsen.os.debian w2 setting up debian
-INFO [2016-12-13 15:56:28,147] jepsen node w1 - jepsen.os.debian w1 setting up debian
-INFO [2016-12-13 15:56:28,147] jepsen node w5 - jepsen.os.debian w5 setting up debian
-INFO [2016-12-13 15:56:28,147] jepsen node w4 - jepsen.os.debian w4 setting up debian
-INFO [2016-12-13 15:56:28,147] jepsen node w3 - jepsen.os.debian w3 setting up debian
-INFO [2016-12-13 15:56:28,869] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
-INFO [2016-12-13 15:56:28,869] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
-INFO [2016-12-13 15:56:28,869] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
-INFO [2016-12-13 15:56:28,869] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
-INFO [2016-12-13 15:56:28,870] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
-INFO [2016-12-13 15:56:29,074] jepsen node w2 - jepsen.zookeeper Setting up ZK on  w2
-INFO [2016-12-13 15:56:29,074] jepsen node w5 - jepsen.zookeeper Setting up ZK on  w5
-INFO [2016-12-13 15:56:29,074] jepsen node w3 - jepsen.zookeeper Setting up ZK on  w3
-INFO [2016-12-13 15:56:29,076] jepsen node w4 - jepsen.zookeeper Setting up ZK on  w4
-INFO [2016-12-13 15:56:29,076] jepsen node w1 - jepsen.zookeeper Setting up ZK on  w1
-INFO [2016-12-13 15:56:29,099] jepsen node w2 - jepsen.zookeeper w2 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:56:29,099] jepsen node w5 - jepsen.zookeeper w5 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:56:29,099] jepsen node w3 - jepsen.zookeeper w3 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:56:29,099] jepsen node w4 - jepsen.zookeeper w4 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:56:29,099] jepsen node w1 - jepsen.zookeeper w1 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:56:29,408] jepsen node w3 - jepsen.zookeeper w3 id is 2
-INFO [2016-12-13 15:56:29,408] jepsen node w4 - jepsen.zookeeper w4 id is 3
-INFO [2016-12-13 15:56:29,409] jepsen node w2 - jepsen.zookeeper w2 id is 1
-INFO [2016-12-13 15:56:29,409] jepsen node w5 - jepsen.zookeeper w5 id is 4
-INFO [2016-12-13 15:56:29,409] jepsen node w1 - jepsen.zookeeper w1 id is 0
-INFO [2016-12-13 15:56:29,616] jepsen node w3 - jepsen.zookeeper w3 ZK restarting
-INFO [2016-12-13 15:56:29,620] jepsen node w2 - jepsen.zookeeper w2 ZK restarting
-INFO [2016-12-13 15:56:29,620] jepsen node w4 - jepsen.zookeeper w4 ZK restarting
-INFO [2016-12-13 15:56:29,620] jepsen node w5 - jepsen.zookeeper w5 ZK restarting
-INFO [2016-12-13 15:56:29,620] jepsen node w1 - jepsen.zookeeper w1 ZK restarting
-INFO [2016-12-13 15:56:34,718] jepsen node w3 - jepsen.zookeeper w3 ZK ready
-INFO [2016-12-13 15:56:34,722] jepsen node w2 - jepsen.zookeeper w2 ZK ready
-INFO [2016-12-13 15:56:34,722] jepsen node w5 - jepsen.zookeeper w5 ZK ready
-INFO [2016-12-13 15:56:34,722] jepsen node w4 - jepsen.zookeeper w4 ZK ready
-INFO [2016-12-13 15:56:34,722] jepsen node w1 - jepsen.zookeeper w1 ZK ready
-INFO [2016-12-13 15:56:34,727] clojure-agent-send-off-pool-2 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@67c3ed50
-INFO [2016-12-13 15:56:34,728] clojure-agent-send-off-pool-1 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@4ad686ee
-INFO [2016-12-13 15:56:34,728] clojure-agent-send-off-pool-4 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@402125d1
-INFO [2016-12-13 15:56:34,728] clojure-agent-send-off-pool-0 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@7c18387b
-INFO [2016-12-13 15:56:34,728] clojure-agent-send-off-pool-3 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@2d30e360
-INFO [2016-12-13 15:56:34,743] clojure-agent-send-off-pool-3-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.104:2181
-INFO [2016-12-13 15:56:34,743] clojure-agent-send-off-pool-0-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.102:2181
-INFO [2016-12-13 15:56:34,744] clojure-agent-send-off-pool-1-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.103:2181
-INFO [2016-12-13 15:56:34,744] clojure-agent-send-off-pool-4-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.101:2181
-INFO [2016-12-13 15:56:34,744] clojure-agent-send-off-pool-2-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.105:2181
-INFO [2016-12-13 15:56:34,754] clojure-agent-send-off-pool-1-SendThread(w3:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w3/192.168.32.103:2181, initiating session
-INFO [2016-12-13 15:56:34,754] clojure-agent-send-off-pool-2-SendThread(w5:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w5/192.168.32.105:2181, initiating session
-INFO [2016-12-13 15:56:34,755] clojure-agent-send-off-pool-4-SendThread(w1:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w1/192.168.32.101:2181, initiating session
-INFO [2016-12-13 15:56:34,755] clojure-agent-send-off-pool-0-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w2/192.168.32.102:2181, initiating session
-INFO [2016-12-13 15:56:34,755] clojure-agent-send-off-pool-3-SendThread(w4:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w4/192.168.32.104:2181, initiating session
-INFO [2016-12-13 15:56:34,872] clojure-agent-send-off-pool-3-SendThread(w4:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w4/192.168.32.104:2181, sessionid = 0x158f8e6435f0000, negotiated timeout = 5000
-INFO [2016-12-13 15:56:34,873] clojure-agent-send-off-pool-2-SendThread(w5:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w5/192.168.32.105:2181, sessionid = 0x158f8e6441c0000, negotiated timeout = 5000
-INFO [2016-12-13 15:56:34,874] clojure-agent-send-off-pool-1-SendThread(w3:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w3/192.168.32.103:2181, sessionid = 0x158f8e645c50000, negotiated timeout = 5000
-INFO [2016-12-13 15:56:34,874] clojure-agent-send-off-pool-0-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w2/192.168.32.102:2181, sessionid = 0x158f8e643600000, negotiated timeout = 5000
-INFO [2016-12-13 15:56:34,900] clojure-agent-send-off-pool-4-SendThread(w1:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w1/192.168.32.101:2181, sessionid = 0x158f8e643230000, negotiated timeout = 5000
-INFO [2016-12-13 15:56:34,992] jepsen nemesis - jepsen.core Nemesis starting
-INFO [2016-12-13 15:56:34,992] jepsen nemesis - jepsen.core nemesis done
-INFO [2016-12-13 15:56:34,993] jepsen worker 0 - jepsen.core Worker 0 starting
-INFO [2016-12-13 15:56:34,993] jepsen worker 1 - jepsen.core Worker 1 starting
-INFO [2016-12-13 15:56:34,993] jepsen worker 3 - jepsen.core Worker 3 starting
-INFO [2016-12-13 15:56:34,993] jepsen worker 4 - jepsen.core Worker 4 starting
-INFO [2016-12-13 15:56:34,993] jepsen worker 2 - jepsen.core Worker 2 starting
-INFO [2016-12-13 15:56:35,451] jepsen worker 2 - jepsen.util 2	:invoke	:write	0
-INFO [2016-12-13 15:56:35,453] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:35,461] jepsen worker 2 - jepsen.core Process 2 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:35,507] jepsen worker 4 - jepsen.util 4	:invoke	:write	3
-INFO [2016-12-13 15:56:35,508] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:35,508] jepsen worker 4 - jepsen.core Process 4 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:36,369] jepsen worker 0 - jepsen.util 0	:invoke	:write	3
-INFO [2016-12-13 15:56:36,370] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:36,370] jepsen worker 0 - jepsen.core Process 0 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:36,435] jepsen worker 2 - jepsen.util 7	:invoke	:write	3
-INFO [2016-12-13 15:56:36,435] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:36,436] jepsen worker 2 - jepsen.core Process 7 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:36,744] jepsen worker 1 - jepsen.util 1	:invoke	:write	1
-INFO [2016-12-13 15:56:36,745] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:36,745] jepsen worker 1 - jepsen.core Process 1 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:36,848] jepsen worker 3 - jepsen.util 3	:invoke	:write	3
-INFO [2016-12-13 15:56:36,848] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:36,849] jepsen worker 3 - jepsen.core Process 3 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:36,895] jepsen worker 1 - jepsen.util 6	:invoke	:write	3
-INFO [2016-12-13 15:56:36,895] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:36,895] jepsen worker 1 - jepsen.core Process 6 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:37,040] jepsen worker 1 - jepsen.util 11	:invoke	:write	0
-INFO [2016-12-13 15:56:37,040] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:37,041] jepsen worker 1 - jepsen.core Process 11 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:37,277] jepsen worker 4 - jepsen.util 9	:invoke	:write	0
-INFO [2016-12-13 15:56:37,277] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:37,278] jepsen worker 4 - jepsen.core Process 9 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:37,415] jepsen worker 2 - jepsen.util 12	:invoke	:write	0
-INFO [2016-12-13 15:56:37,416] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:37,416] jepsen worker 2 - jepsen.core Process 12 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:37,496] jepsen worker 0 - jepsen.util 5	:invoke	:write	0
-INFO [2016-12-13 15:56:37,496] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:37,496] jepsen worker 0 - jepsen.core Process 5 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:37,548] jepsen worker 0 - jepsen.util 10	:invoke	:write	4
-INFO [2016-12-13 15:56:37,548] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:37,548] jepsen worker 0 - jepsen.core Process 10 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:37,585] jepsen worker 3 - jepsen.util 8	:invoke	:write	2
-INFO [2016-12-13 15:56:37,586] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:37,586] jepsen worker 3 - jepsen.core Process 8 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:38,280] jepsen worker 2 - jepsen.util 17	:invoke	:write	1
-INFO [2016-12-13 15:56:38,280] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:38,281] jepsen worker 2 - jepsen.core Process 17 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:38,420] jepsen worker 1 - jepsen.util 16	:invoke	:write	2
-INFO [2016-12-13 15:56:38,421] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:38,421] jepsen worker 1 - jepsen.core Process 16 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:38,760] jepsen worker 4 - jepsen.util 14	:invoke	:write	4
-INFO [2016-12-13 15:56:38,761] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:38,761] jepsen worker 4 - jepsen.core Process 14 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:38,786] jepsen worker 2 - jepsen.util 22	:invoke	:write	3
-INFO [2016-12-13 15:56:38,786] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:38,787] jepsen worker 2 - jepsen.core Process 22 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:38,932] jepsen worker 0 - jepsen.util 15	:invoke	:write	1
-INFO [2016-12-13 15:56:38,932] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:38,933] jepsen worker 0 - jepsen.core Process 15 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:39,115] jepsen worker 3 - jepsen.util 13	:invoke	:write	1
-INFO [2016-12-13 15:56:39,115] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:39,115] jepsen worker 3 - jepsen.core Process 13 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:39,528] jepsen worker 1 - jepsen.util 21	:invoke	:write	0
-INFO [2016-12-13 15:56:39,528] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:39,528] jepsen worker 1 - jepsen.core Process 21 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:39,733] jepsen worker 0 - jepsen.util 20	:invoke	:write	3
-INFO [2016-12-13 15:56:39,734] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:39,741] jepsen worker 0 - jepsen.core Process 20 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:39,873] jepsen worker 4 - jepsen.util 19	:invoke	:write	3
-INFO [2016-12-13 15:56:39,873] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:39,874] jepsen worker 4 - jepsen.core Process 19 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:39,973] jepsen worker 4 - jepsen.util 24	:invoke	:write	0
-INFO [2016-12-13 15:56:39,973] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:39,974] jepsen worker 4 - jepsen.core Process 24 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,106] jepsen worker 2 - jepsen.util 27	:invoke	:write	0
-INFO [2016-12-13 15:56:40,106] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,107] jepsen worker 2 - jepsen.core Process 27 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,398] jepsen worker 2 - jepsen.util 32	:invoke	:write	2
-INFO [2016-12-13 15:56:40,398] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,399] jepsen worker 2 - jepsen.core Process 32 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,417] jepsen worker 0 - jepsen.util 25	:invoke	:write	0
-INFO [2016-12-13 15:56:40,418] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,418] jepsen worker 0 - jepsen.core Process 25 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,582] jepsen worker 0 - jepsen.util 30	:invoke	:write	1
-INFO [2016-12-13 15:56:40,583] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,583] jepsen worker 0 - jepsen.core Process 30 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,634] jepsen worker 4 - jepsen.util 29	:invoke	:write	2
-INFO [2016-12-13 15:56:40,634] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,634] jepsen worker 4 - jepsen.core Process 29 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,655] jepsen worker 0 - jepsen.util 35	:invoke	:write	3
-INFO [2016-12-13 15:56:40,655] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,656] jepsen worker 0 - jepsen.core Process 35 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,675] jepsen worker 3 - jepsen.util 18	:invoke	:write	0
-INFO [2016-12-13 15:56:40,675] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,675] jepsen worker 3 - jepsen.core Process 18 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:40,755] jepsen worker 0 - jepsen.util 40	:invoke	:write	0
-INFO [2016-12-13 15:56:40,755] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:40,756] jepsen worker 0 - jepsen.core Process 40 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:41,043] jepsen worker 1 - jepsen.util 26	:invoke	:write	4
-INFO [2016-12-13 15:56:41,043] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:41,043] jepsen worker 1 - jepsen.core Process 26 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:41,122] jepsen worker 4 - jepsen.util 34	:invoke	:write	1
-INFO [2016-12-13 15:56:41,122] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:41,122] jepsen worker 4 - jepsen.core Process 34 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:41,215] jepsen worker 2 - jepsen.util 37	:invoke	:write	2
-INFO [2016-12-13 15:56:41,215] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:41,216] jepsen worker 2 - jepsen.core Process 37 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:41,284] jepsen worker 3 - jepsen.util 23	:invoke	:write	2
-INFO [2016-12-13 15:56:41,285] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:41,285] jepsen worker 3 - jepsen.core Process 23 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:41,386] jepsen worker 4 - jepsen.util 39	:invoke	:write	0
-INFO [2016-12-13 15:56:41,386] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:41,386] jepsen worker 4 - jepsen.core Process 39 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:41,780] jepsen worker 2 - jepsen.util 42	:invoke	:write	1
-INFO [2016-12-13 15:56:41,780] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:41,781] jepsen worker 2 - jepsen.core Process 42 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:42,246] jepsen worker 4 - jepsen.util 44	:invoke	:write	2
-INFO [2016-12-13 15:56:42,246] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:42,246] jepsen worker 4 - jepsen.core Process 44 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:42,435] jepsen worker 3 - jepsen.util 28	:invoke	:write	2
-INFO [2016-12-13 15:56:42,436] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:42,436] jepsen worker 3 - jepsen.core Process 28 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:42,531] jepsen worker 3 - jepsen.util 33	:invoke	:write	1
-INFO [2016-12-13 15:56:42,532] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:42,532] jepsen worker 3 - jepsen.core Process 33 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:42,542] jepsen worker 0 - jepsen.util 45	:invoke	:write	0
-INFO [2016-12-13 15:56:42,542] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:42,543] jepsen worker 0 - jepsen.core Process 45 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:42,566] jepsen worker 1 - jepsen.util 31	:invoke	:write	0
-INFO [2016-12-13 15:56:42,566] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:42,566] jepsen worker 1 - jepsen.core Process 31 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:42,795] jepsen worker 2 - jepsen.util 47	:invoke	:write	1
-INFO [2016-12-13 15:56:42,796] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:42,796] jepsen worker 2 - jepsen.core Process 47 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:42,976] jepsen worker 2 - jepsen.util 52	:invoke	:write	2
-INFO [2016-12-13 15:56:42,977] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:42,977] jepsen worker 2 - jepsen.core Process 52 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:43,284] jepsen worker 4 - jepsen.util 49	:invoke	:write	4
-INFO [2016-12-13 15:56:43,284] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:43,284] jepsen worker 4 - jepsen.core Process 49 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:43,429] jepsen worker 4 - jepsen.util 54	:invoke	:write	4
-INFO [2016-12-13 15:56:43,430] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:43,430] jepsen worker 4 - jepsen.core Process 54 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:43,582] jepsen worker 3 - jepsen.util 38	:invoke	:write	0
-INFO [2016-12-13 15:56:43,583] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:43,583] jepsen worker 3 - jepsen.core Process 38 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:43,748] jepsen worker 4 - jepsen.util 59	:invoke	:write	2
-INFO [2016-12-13 15:56:43,748] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:43,749] jepsen worker 4 - jepsen.core Process 59 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:43,844] jepsen worker 0 - jepsen.util 50	:invoke	:write	1
-INFO [2016-12-13 15:56:43,845] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:43,845] jepsen worker 0 - jepsen.core Process 50 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:44,209] jepsen worker 0 - jepsen.util 55	:invoke	:write	4
-INFO [2016-12-13 15:56:44,210] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:44,210] jepsen worker 0 - jepsen.core Process 55 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:44,362] jepsen worker 2 - jepsen.util 57	:invoke	:write	3
-INFO [2016-12-13 15:56:44,363] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:44,363] jepsen worker 2 - jepsen.core Process 57 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:44,515] jepsen worker 1 - jepsen.util 36	:invoke	:write	0
-INFO [2016-12-13 15:56:44,515] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:44,515] jepsen worker 1 - jepsen.core Process 36 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:44,719] jepsen worker 2 - jepsen.util 62	:invoke	:write	3
-INFO [2016-12-13 15:56:44,719] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:44,719] jepsen worker 2 - jepsen.core Process 62 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:44,793] jepsen worker 0 - jepsen.util 60	:invoke	:write	3
-INFO [2016-12-13 15:56:44,794] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:44,799] jepsen worker 0 - jepsen.core Process 60 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:45,124] jepsen worker 3 - jepsen.util 43	:invoke	:write	2
-INFO [2016-12-13 15:56:45,125] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:45,125] jepsen worker 3 - jepsen.core Process 43 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:45,310] jepsen worker 0 - jepsen.util 65	:invoke	:write	0
-INFO [2016-12-13 15:56:45,311] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:45,311] jepsen worker 0 - jepsen.core Process 65 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:45,608] jepsen worker 4 - jepsen.util 64	:invoke	:write	0
-INFO [2016-12-13 15:56:45,609] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:45,609] jepsen worker 4 - jepsen.core Process 64 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:45,771] jepsen worker 2 - jepsen.util 67	:invoke	:write	3
-INFO [2016-12-13 15:56:45,772] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:45,772] jepsen worker 2 - jepsen.core Process 67 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:46,220] jepsen worker 1 - jepsen.util 41	:invoke	:write	4
-INFO [2016-12-13 15:56:46,220] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:46,220] jepsen worker 1 - jepsen.core Process 41 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:46,477] jepsen worker 2 - jepsen.util 72	:invoke	:write	2
-INFO [2016-12-13 15:56:46,477] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:46,477] jepsen worker 2 - jepsen.core Process 72 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:46,497] jepsen worker 0 - jepsen.util 70	:invoke	:write	4
-INFO [2016-12-13 15:56:46,497] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:46,498] jepsen worker 0 - jepsen.core Process 70 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:46,763] jepsen worker 4 - jepsen.util 69	:invoke	:write	1
-INFO [2016-12-13 15:56:46,764] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:46,764] jepsen worker 4 - jepsen.core Process 69 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:46,916] jepsen worker 4 - jepsen.util 74	:invoke	:write	0
-INFO [2016-12-13 15:56:46,916] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:46,916] jepsen worker 4 - jepsen.core Process 74 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:47,044] jepsen worker 3 - jepsen.util 48	:invoke	:write	0
-INFO [2016-12-13 15:56:47,045] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:47,045] jepsen worker 3 - jepsen.core Process 48 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:47,162] jepsen worker 1 - jepsen.util 46	:invoke	:write	2
-INFO [2016-12-13 15:56:47,162] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:47,162] jepsen worker 1 - jepsen.core Process 46 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:47,502] jepsen worker 0 - jepsen.util 75	:invoke	:write	1
-INFO [2016-12-13 15:56:47,502] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:47,503] jepsen worker 0 - jepsen.core Process 75 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,068] jepsen worker 4 - jepsen.util 79	:invoke	:write	1
-INFO [2016-12-13 15:56:48,068] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,068] jepsen worker 4 - jepsen.core Process 79 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,320] jepsen worker 1 - jepsen.util 51	:invoke	:write	4
-INFO [2016-12-13 15:56:48,320] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,320] jepsen worker 1 - jepsen.core Process 51 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,323] jepsen worker 0 - jepsen.util 80	:invoke	:write	4
-INFO [2016-12-13 15:56:48,323] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,323] jepsen worker 0 - jepsen.core Process 80 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,403] jepsen worker 2 - jepsen.util 77	:invoke	:write	1
-INFO [2016-12-13 15:56:48,403] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,404] jepsen worker 2 - jepsen.core Process 77 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,462] jepsen worker 1 - jepsen.util 56	:invoke	:write	3
-INFO [2016-12-13 15:56:48,463] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,463] jepsen worker 1 - jepsen.core Process 56 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,484] jepsen worker 3 - jepsen.util 53	:invoke	:write	2
-INFO [2016-12-13 15:56:48,485] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,485] jepsen worker 3 - jepsen.core Process 53 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,712] jepsen worker 0 - jepsen.util 85	:invoke	:write	1
-INFO [2016-12-13 15:56:48,712] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,712] jepsen worker 0 - jepsen.core Process 85 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:48,900] jepsen worker 4 - jepsen.util 84	:invoke	:write	3
-INFO [2016-12-13 15:56:48,900] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:48,900] jepsen worker 4 - jepsen.core Process 84 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:49,165] jepsen worker 2 - jepsen.util 82	:invoke	:write	2
-INFO [2016-12-13 15:56:49,165] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:49,166] jepsen worker 2 - jepsen.core Process 82 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:49,561] jepsen worker 2 - jepsen.util 87	:invoke	:write	3
-INFO [2016-12-13 15:56:49,561] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:49,562] jepsen worker 2 - jepsen.core Process 87 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:49,825] jepsen worker 1 - jepsen.util 61	:invoke	:write	2
-INFO [2016-12-13 15:56:49,825] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:49,826] jepsen worker 1 - jepsen.core Process 61 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:49,908] jepsen worker 0 - jepsen.util 90	:invoke	:write	3
-INFO [2016-12-13 15:56:49,908] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:49,908] jepsen worker 0 - jepsen.core Process 90 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:50,027] jepsen worker 3 - jepsen.util 58	:invoke	:write	3
-INFO [2016-12-13 15:56:50,027] jepsen worker 3 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:50,028] jepsen worker 3 - jepsen.core Process 58 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:50,028] jepsen worker 3 - jepsen.core Worker 3 done
-INFO [2016-12-13 15:56:50,406] jepsen worker 2 - jepsen.util 92	:invoke	:write	4
-INFO [2016-12-13 15:56:50,406] jepsen worker 2 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:50,407] jepsen worker 2 - jepsen.core Process 92 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:50,407] jepsen worker 2 - jepsen.core Worker 2 done
-INFO [2016-12-13 15:56:50,590] jepsen worker 4 - jepsen.util 89	:invoke	:write	3
-INFO [2016-12-13 15:56:50,590] jepsen worker 4 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:50,591] jepsen worker 4 - jepsen.core Process 89 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:50,591] jepsen worker 4 - jepsen.core Worker 4 done
-INFO [2016-12-13 15:56:51,450] jepsen worker 0 - jepsen.util 95	:invoke	:write	4
-INFO [2016-12-13 15:56:51,450] jepsen worker 0 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:51,450] jepsen worker 0 - jepsen.core Process 95 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:51,450] jepsen worker 0 - jepsen.core Worker 0 done
-INFO [2016-12-13 15:56:51,486] jepsen worker 1 - jepsen.util 66	:invoke	:write	0
-INFO [2016-12-13 15:56:51,486] jepsen worker 1 - jepsen.util 		nil	nil
-WARN [2016-12-13 15:56:51,487] jepsen worker 1 - jepsen.core Process 66 indeterminate
-java.lang.AssertionError: Assert failed: (= (:process op) (:process completion))
-	at jepsen.core$worker$fn__5911$fn__5912.invoke(core.clj:168) ~[jepsen-0.1.4.jar:na]
-	at jepsen.core$worker$fn__5911.invoke(core.clj:161) [jepsen-0.1.4.jar:na]
-	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
-	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
-	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
-INFO [2016-12-13 15:56:51,487] jepsen worker 1 - jepsen.core Worker 1 done
-INFO [2016-12-13 15:56:51,487] jepsen test runner - jepsen.core Waiting for nemesis to complete
-INFO [2016-12-13 15:56:51,487] jepsen test runner - jepsen.core nemesis done.
-INFO [2016-12-13 15:56:51,487] jepsen test runner - jepsen.core Tearing down nemesis
-INFO [2016-12-13 15:56:51,487] jepsen test runner - jepsen.core Nemesis torn down
-INFO [2016-12-13 15:56:51,491] clojure-agent-send-off-pool-4 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e643230000 closed
-INFO [2016-12-13 15:56:51,491] clojure-agent-send-off-pool-4-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
-INFO [2016-12-13 15:56:51,491] clojure-agent-send-off-pool-8 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e6435f0000 closed
-INFO [2016-12-13 15:56:51,491] clojure-agent-send-off-pool-3-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
-INFO [2016-12-13 15:56:51,492] clojure-agent-send-off-pool-9 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e643600000 closed
-INFO [2016-12-13 15:56:51,492] clojure-agent-send-off-pool-6 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e645c50000 closed
-INFO [2016-12-13 15:56:51,492] clojure-agent-send-off-pool-0-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
-INFO [2016-12-13 15:56:51,492] clojure-agent-send-off-pool-1-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
-INFO [2016-12-13 15:56:51,492] clojure-agent-send-off-pool-2 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e6441c0000 closed
-INFO [2016-12-13 15:56:51,492] clojure-agent-send-off-pool-2-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
-INFO [2016-12-13 15:56:51,493] jepsen test runner - jepsen.core Snarfing log files
-INFO [2016-12-13 15:56:51,496] jepsen node w3 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:56:51,496] jepsen node w1 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:56:51,496] jepsen node w4 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:56:51,496] jepsen node w5 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:56:51,496] jepsen node w2 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:56:51,514] jepsen test runner - jepsen.core Run complete, writing
-INFO [2016-12-13 15:56:51,540] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
-INFO [2016-12-13 15:56:51,540] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
-INFO [2016-12-13 15:56:51,540] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
-INFO [2016-12-13 15:56:51,540] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
-INFO [2016-12-13 15:56:51,540] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
-INFO [2016-12-13 15:56:52,150] jepsen test runner - jepsen.core Analyzing
-INFO [2016-12-13 15:56:52,169] jepsen test runner - jepsen.core Analysis complete
-INFO [2016-12-13 15:56:52,427] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T155627.000Z/results.edn
-INFO [2016-12-13 15:56:52,671] main - jepsen.core {:valid? true,
+INFO [2016-12-13 16:00:23,748] jepsen node w2 - jepsen.os.debian w2 setting up debian
+INFO [2016-12-13 16:00:23,749] jepsen node w5 - jepsen.os.debian w5 setting up debian
+INFO [2016-12-13 16:00:23,748] jepsen node w4 - jepsen.os.debian w4 setting up debian
+INFO [2016-12-13 16:00:23,749] jepsen node w3 - jepsen.os.debian w3 setting up debian
+INFO [2016-12-13 16:00:23,749] jepsen node w1 - jepsen.os.debian w1 setting up debian
+INFO [2016-12-13 16:00:24,468] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
+INFO [2016-12-13 16:00:24,468] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
+INFO [2016-12-13 16:00:24,468] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 16:00:24,469] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
+INFO [2016-12-13 16:00:24,469] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
+INFO [2016-12-13 16:00:24,672] jepsen node w1 - jepsen.zookeeper Setting up ZK on  w1
+INFO [2016-12-13 16:00:24,672] jepsen node w4 - jepsen.zookeeper Setting up ZK on  w4
+INFO [2016-12-13 16:00:24,672] jepsen node w1 - jepsen.zookeeper w1 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 16:00:24,672] jepsen node w4 - jepsen.zookeeper w4 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 16:00:24,672] jepsen node w5 - jepsen.zookeeper Setting up ZK on  w5
+INFO [2016-12-13 16:00:24,673] jepsen node w5 - jepsen.zookeeper w5 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 16:00:24,673] jepsen node w2 - jepsen.zookeeper Setting up ZK on  w2
+INFO [2016-12-13 16:00:24,673] jepsen node w2 - jepsen.zookeeper w2 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 16:00:24,673] jepsen node w3 - jepsen.zookeeper Setting up ZK on  w3
+INFO [2016-12-13 16:00:24,673] jepsen node w3 - jepsen.zookeeper w3 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 16:00:24,980] jepsen node w2 - jepsen.zookeeper w2 id is 1
+INFO [2016-12-13 16:00:24,980] jepsen node w5 - jepsen.zookeeper w5 id is 4
+INFO [2016-12-13 16:00:24,980] jepsen node w1 - jepsen.zookeeper w1 id is 0
+INFO [2016-12-13 16:00:24,981] jepsen node w4 - jepsen.zookeeper w4 id is 3
+INFO [2016-12-13 16:00:24,981] jepsen node w3 - jepsen.zookeeper w3 id is 2
+INFO [2016-12-13 16:00:25,186] jepsen node w5 - jepsen.zookeeper w5 ZK restarting
+INFO [2016-12-13 16:00:25,186] jepsen node w2 - jepsen.zookeeper w2 ZK restarting
+INFO [2016-12-13 16:00:25,186] jepsen node w3 - jepsen.zookeeper w3 ZK restarting
+INFO [2016-12-13 16:00:25,186] jepsen node w1 - jepsen.zookeeper w1 ZK restarting
+INFO [2016-12-13 16:00:25,187] jepsen node w4 - jepsen.zookeeper w4 ZK restarting
+INFO [2016-12-13 16:00:30,288] jepsen node w5 - jepsen.zookeeper w5 ZK ready
+INFO [2016-12-13 16:00:30,288] jepsen node w2 - jepsen.zookeeper w2 ZK ready
+INFO [2016-12-13 16:00:30,288] jepsen node w3 - jepsen.zookeeper w3 ZK ready
+INFO [2016-12-13 16:00:30,288] jepsen node w1 - jepsen.zookeeper w1 ZK ready
+INFO [2016-12-13 16:00:30,289] jepsen node w4 - jepsen.zookeeper w4 ZK ready
+INFO [2016-12-13 16:00:30,294] clojure-agent-send-off-pool-4 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@448d6391
+INFO [2016-12-13 16:00:30,294] clojure-agent-send-off-pool-0 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@1ef70d7f
+INFO [2016-12-13 16:00:30,294] clojure-agent-send-off-pool-3 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@37f1466f
+INFO [2016-12-13 16:00:30,294] clojure-agent-send-off-pool-2 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@475e8d0f
+INFO [2016-12-13 16:00:30,294] clojure-agent-send-off-pool-1 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@2855881f
+INFO [2016-12-13 16:00:30,311] clojure-agent-send-off-pool-3-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.102:2181
+INFO [2016-12-13 16:00:30,312] clojure-agent-send-off-pool-0-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.105:2181
+INFO [2016-12-13 16:00:30,312] clojure-agent-send-off-pool-2-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.104:2181
+INFO [2016-12-13 16:00:30,321] clojure-agent-send-off-pool-1-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.103:2181
+INFO [2016-12-13 16:00:30,321] clojure-agent-send-off-pool-4-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.101:2181
+INFO [2016-12-13 16:00:30,328] clojure-agent-send-off-pool-2-SendThread(w4:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w4/192.168.32.104:2181, initiating session
+INFO [2016-12-13 16:00:30,329] clojure-agent-send-off-pool-3-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w2/192.168.32.102:2181, initiating session
+INFO [2016-12-13 16:00:30,329] clojure-agent-send-off-pool-0-SendThread(w5:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w5/192.168.32.105:2181, initiating session
+INFO [2016-12-13 16:00:30,329] clojure-agent-send-off-pool-4-SendThread(w1:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w1/192.168.32.101:2181, initiating session
+INFO [2016-12-13 16:00:30,330] clojure-agent-send-off-pool-1-SendThread(w3:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w3/192.168.32.103:2181, initiating session
+INFO [2016-12-13 16:00:30,448] clojure-agent-send-off-pool-4-SendThread(w1:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w1/192.168.32.101:2181, sessionid = 0x158f8e9db680000, negotiated timeout = 5000
+INFO [2016-12-13 16:00:30,451] clojure-agent-send-off-pool-1-SendThread(w3:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w3/192.168.32.103:2181, sessionid = 0x158f8e9ddf00000, negotiated timeout = 5000
+INFO [2016-12-13 16:00:30,452] clojure-agent-send-off-pool-2-SendThread(w4:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w4/192.168.32.104:2181, sessionid = 0x158f8e9db870000, negotiated timeout = 5000
+INFO [2016-12-13 16:00:30,453] clojure-agent-send-off-pool-0-SendThread(w5:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w5/192.168.32.105:2181, sessionid = 0x158f8e9dc580000, negotiated timeout = 5000
+INFO [2016-12-13 16:00:30,455] clojure-agent-send-off-pool-3-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w2/192.168.32.102:2181, sessionid = 0x158f8e9db960000, negotiated timeout = 5000
+INFO [2016-12-13 16:00:30,562] jepsen nemesis - jepsen.core Nemesis starting
+INFO [2016-12-13 16:00:30,563] jepsen nemesis - jepsen.core nemesis done
+INFO [2016-12-13 16:00:30,564] jepsen worker 0 - jepsen.core Worker 0 starting
+INFO [2016-12-13 16:00:30,564] jepsen worker 1 - jepsen.core Worker 1 starting
+INFO [2016-12-13 16:00:30,564] jepsen worker 3 - jepsen.core Worker 3 starting
+INFO [2016-12-13 16:00:30,564] jepsen worker 4 - jepsen.core Worker 4 starting
+INFO [2016-12-13 16:00:30,564] jepsen worker 2 - jepsen.core Worker 2 starting
+INFO [2016-12-13 16:00:30,675] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:30,685] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:31,359] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:31,363] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:31,479] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:31,479] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:31,572] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:31,573] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:31,672] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:31,676] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:31,861] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:31,865] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:32,114] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:32,114] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:32,288] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:32,288] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:32,323] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:32,327] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:32,544] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:32,545] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:32,818] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:32,819] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:32,841] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:32,841] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:33,061] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,061] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:33,070] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,070] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:33,350] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,370] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:33,390] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,390] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:33,415] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,416] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:33,577] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,578] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:33,604] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,604] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:33,707] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,708] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:33,830] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:33,830] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:34,167] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:34,167] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:34,184] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:34,185] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:34,313] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:34,313] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:34,620] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:34,621] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:34,674] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:34,675] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:34,867] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:34,867] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:35,022] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:35,022] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:35,055] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:35,055] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:35,281] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:35,282] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:35,857] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:35,857] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:36,016] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:36,017] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:36,183] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:36,184] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:36,221] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:36,221] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:36,288] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:36,288] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:36,858] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:36,858] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:36,992] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:36,992] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:37,870] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:37,871] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:37,873] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:37,874] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:38,101] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:38,101] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:38,413] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:38,414] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:38,624] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:38,624] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:38,738] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:38,738] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:38,828] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:38,829] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:39,565] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:39,566] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:39,707] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:39,707] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:39,756] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:39,756] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:40,231] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:40,232] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:40,274] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:40,274] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:40,423] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:40,423] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:40,677] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:40,677] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:40,701] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:40,702] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:41,216] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:41,216] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:41,421] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:41,421] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:41,454] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:41,454] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:42,267] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:42,267] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:42,344] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:42,344] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:42,480] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:42,480] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:42,612] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:42,613] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:42,777] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:42,777] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:43,104] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:43,105] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:43,288] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:43,288] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:43,525] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:43,526] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:43,853] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:43,854] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:43,972] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:43,972] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:44,191] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:44,191] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:44,425] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:44,425] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:44,626] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:44,627] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:44,947] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:44,947] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:44,957] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:44,957] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:45,305] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:45,306] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:45,485] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:45,485] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:45,599] jepsen worker 1 - jepsen.util 1	:invoke	:read	nil
+INFO [2016-12-13 16:00:45,599] jepsen worker 1 - jepsen.util 1	:ok	:read	0
+INFO [2016-12-13 16:00:45,599] jepsen worker 1 - jepsen.core Worker 1 done
+INFO [2016-12-13 16:00:45,760] jepsen worker 3 - jepsen.util 3	:invoke	:read	nil
+INFO [2016-12-13 16:00:45,760] jepsen worker 3 - jepsen.util 3	:ok	:read	0
+INFO [2016-12-13 16:00:45,760] jepsen worker 3 - jepsen.core Worker 3 done
+INFO [2016-12-13 16:00:45,886] jepsen worker 2 - jepsen.util 2	:invoke	:read	nil
+INFO [2016-12-13 16:00:45,886] jepsen worker 2 - jepsen.util 2	:ok	:read	0
+INFO [2016-12-13 16:00:45,887] jepsen worker 2 - jepsen.core Worker 2 done
+INFO [2016-12-13 16:00:45,951] jepsen worker 4 - jepsen.util 4	:invoke	:read	nil
+INFO [2016-12-13 16:00:45,951] jepsen worker 4 - jepsen.util 4	:ok	:read	0
+INFO [2016-12-13 16:00:45,951] jepsen worker 4 - jepsen.core Worker 4 done
+INFO [2016-12-13 16:00:46,247] jepsen worker 0 - jepsen.util 0	:invoke	:read	nil
+INFO [2016-12-13 16:00:46,247] jepsen worker 0 - jepsen.util 0	:ok	:read	0
+INFO [2016-12-13 16:00:46,247] jepsen worker 0 - jepsen.core Worker 0 done
+INFO [2016-12-13 16:00:46,248] jepsen test runner - jepsen.core Waiting for nemesis to complete
+INFO [2016-12-13 16:00:46,248] jepsen test runner - jepsen.core nemesis done.
+INFO [2016-12-13 16:00:46,248] jepsen test runner - jepsen.core Tearing down nemesis
+INFO [2016-12-13 16:00:46,248] jepsen test runner - jepsen.core Nemesis torn down
+INFO [2016-12-13 16:00:46,252] clojure-agent-send-off-pool-0 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e9dc580000 closed
+INFO [2016-12-13 16:00:46,252] clojure-agent-send-off-pool-0-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 16:00:46,252] clojure-agent-send-off-pool-6 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e9db680000 closed
+INFO [2016-12-13 16:00:46,252] clojure-agent-send-off-pool-4-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 16:00:46,252] clojure-agent-send-off-pool-3-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 16:00:46,253] clojure-agent-send-off-pool-1 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e9db960000 closed
+INFO [2016-12-13 16:00:46,253] clojure-agent-send-off-pool-5 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e9db870000 closed
+INFO [2016-12-13 16:00:46,253] clojure-agent-send-off-pool-2-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 16:00:46,253] clojure-agent-send-off-pool-8 - org.apache.zookeeper.ZooKeeper Session: 0x158f8e9ddf00000 closed
+INFO [2016-12-13 16:00:46,253] clojure-agent-send-off-pool-1-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 16:00:46,254] jepsen test runner - jepsen.core Snarfing log files
+INFO [2016-12-13 16:00:46,257] jepsen node w3 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 16:00:46,257] jepsen node w5 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 16:00:46,257] jepsen node w4 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 16:00:46,257] jepsen node w1 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 16:00:46,257] jepsen node w2 - jepsen.core downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 16:00:46,274] jepsen test runner - jepsen.core Run complete, writing
+INFO [2016-12-13 16:00:46,298] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
+INFO [2016-12-13 16:00:46,298] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
+INFO [2016-12-13 16:00:46,298] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
+INFO [2016-12-13 16:00:46,298] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 16:00:46,299] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
+INFO [2016-12-13 16:00:46,909] jepsen test runner - jepsen.core Analyzing
+INFO [2016-12-13 16:00:46,941] jepsen test runner - jepsen.core Analysis complete
+INFO [2016-12-13 16:00:46,955] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T160023.000Z/results.edn
+INFO [2016-12-13 16:00:46,964] main - jepsen.core {:valid? true,
  :configs
  ({:model {},
-   :last-op nil,
-   :pending
-   [{:type :invoke,
-     :f :write,
-     :value 3,
-     :process 0,
-     :time 1644825520,
-     :index 4}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 1,
-     :time 2019876053,
-     :index 8}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 2,
-     :time 725253918,
-     :index 0}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 3,
-     :time 2123808482,
-     :index 10}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 4,
-     :time 782844414,
-     :index 2}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 5,
-     :time 2771256764,
-     :index 20}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 6,
-     :time 2170345202,
-     :index 12}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 7,
-     :time 1710665957,
-     :index 6}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 8,
-     :time 2861057447,
-     :index 24}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 9,
-     :time 2552540804,
-     :index 16}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 10,
-     :time 2823188168,
-     :index 22}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 11,
-     :time 2315489724,
-     :index 14}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 12,
-     :time 2691110231,
-     :index 18}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 13,
-     :time 4390145189,
-     :index 36}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 14,
-     :time 4035918113,
-     :index 30}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 15,
-     :time 4207503768,
-     :index 34}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 16,
-     :time 3695880092,
-     :index 28}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 17,
-     :time 3555438621,
-     :index 26}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 18,
-     :time 5950275500,
-     :index 58}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 19,
-     :time 5148603238,
-     :index 42}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 20,
-     :time 5008946648,
-     :index 40}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 21,
-     :time 4803163502,
-     :index 38}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 22,
-     :time 4061610768,
-     :index 32}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 23,
-     :time 6560149243,
-     :index 68}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 24,
-     :time 5248694400,
-     :index 44}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 25,
-     :time 5693053856,
-     :index 50}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 26,
-     :time 6318370412,
-     :index 62}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 27,
-     :time 5381759990,
-     :index 46}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 28,
-     :time 7711101893,
-     :index 76}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 29,
-     :time 5909600465,
-     :index 54}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 30,
-     :time 5857992498,
-     :index 52}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 31,
-     :time 7841460759,
-     :index 82}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 32,
-     :time 5673707201,
-     :index 48}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 33,
-     :time 7807075879,
-     :index 78}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 34,
-     :time 6397404870,
-     :index 64}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 35,
-     :time 5930941035,
-     :index 56}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 36,
-     :time 9790434136,
-     :index 102}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 37,
-     :time 6490874714,
-     :index 66}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 38,
-     :time 8858104393,
-     :index 92}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 39,
-     :time 6661229323,
-     :index 70}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 40,
-     :time 6030886826,
-     :index 60}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 41,
-     :time 11495395741,
-     :index 116}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 42,
-     :time 7055793212,
-     :index 72}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 43,
-     :time 10399980918,
-     :index 108}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 44,
-     :time 7521136510,
-     :index 74}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 45,
-     :time 7817918407,
-     :index 80}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 46,
-     :time 12437460966,
-     :index 128}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 47,
-     :time 8070948385,
-     :index 84}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 48,
-     :time 12320084735,
-     :index 126}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 49,
-     :time 8559192090,
-     :index 88}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 50,
-     :time 9119961417,
-     :index 96}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 51,
-     :time 13595270627,
-     :index 134}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 52,
-     :time 8252035548,
-     :index 86}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 53,
-     :time 13759983687,
-     :index 142}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 54,
-     :time 8705073533,
-     :index 90}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 55,
-     :time 9485072901,
-     :index 98}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 56,
-     :time 13738143985,
-     :index 140}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 57,
-     :time 9637938822,
-     :index 100}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 58,
-     :time 15302813836,
-     :index 156}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 59,
-     :time 9023904153,
-     :index 94}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 60,
-     :time 10069115800,
-     :index 106}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 61,
-     :time 15100928096,
-     :index 152}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 62,
-     :time 9994138246,
-     :index 104}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 64,
-     :time 10883935227,
-     :index 112}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 65,
-     :time 10586035733,
-     :index 110}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 66,
-     :time 16761869212,
-     :index 164}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 67,
-     :time 11047139262,
-     :index 114}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 69,
-     :time 12039000576,
-     :index 122}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 70,
-     :time 11772933583,
-     :index 120}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 72,
-     :time 11752152896,
-     :index 118}
-    {:type :invoke,
-     :f :write,
-     :value 0,
-     :process 74,
-     :time 12191244556,
-     :index 124}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 75,
-     :time 12777848613,
-     :index 130}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 77,
-     :time 13679026378,
-     :index 138}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 79,
-     :time 13343268078,
-     :index 132}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 80,
-     :time 13598821355,
-     :index 136}
-    {:type :invoke,
-     :f :write,
-     :value 2,
-     :process 82,
-     :time 14440761793,
-     :index 148}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 84,
-     :time 14175187515,
-     :index 146}
-    {:type :invoke,
-     :f :write,
-     :value 1,
-     :process 85,
-     :time 13987488904,
-     :index 144}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 87,
-     :time 14836632071,
-     :index 150}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 89,
-     :time 15865937486,
-     :index 160}
-    {:type :invoke,
-     :f :write,
-     :value 3,
-     :process 90,
-     :time 15183376590,
-     :index 154}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 92,
-     :time 15681635269,
-     :index 158}
-    {:type :invoke,
-     :f :write,
-     :value 4,
-     :process 95,
-     :time 16725161798,
-     :index 162}]}),
+   :last-op
+   {:type :ok,
+    :f :read,
+    :value 0,
+    :process 0,
+    :time 15956595183,
+    :index 153},
+   :pending []}),
  :final-paths ()}
 
 
