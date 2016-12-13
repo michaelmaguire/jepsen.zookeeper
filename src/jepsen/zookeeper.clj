@@ -48,6 +48,7 @@
                            :> "/etc/zookeeper/conf/zoo.cfg"))
         (info node "ZK restarting")
         (c/exec :service :zookeeper :restart)
+        (Thread/sleep 5000)
         (info node "ZK ready")))
     (teardown! [_ test node]
       (info node "tearing down ZK")
@@ -59,7 +60,7 @@
 
     db/LogFiles
       (log-files [_ test node]
-               ["/var/logs/zookeeper/zookeeper.log"])))
+               ["/var/log/zookeeper/zookeeper.log"])))
 
 (defn r  [_ _] {:type :invoke, :f :read, :value nil})
 (defn r  [_ _] {:type :invoke, :f :write, :value (rand-int 5)})
