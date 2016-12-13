@@ -1,0 +1,18 @@
+2016-12-13 14:07:11,438{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-13 14:07:11,439{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-13 14:07:11,439{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-13 14:07:11,440{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-13 14:07:11,440{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-13 14:07:11,440{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-13 14:07:11,440{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-13 14:07:11,440{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-13 14:07:11,441{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-13 14:07:11,471{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-13 14:07:11,563{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-13 14:07:11,573{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/noop/20161213T140711.000Z/results.edn
+2016-12-13 14:07:11,580{GMT}	INFO	[main] jepsen.core: {:valid? true,
+ :configs ({:model {}, :last-op nil, :pending []}),
+ :final-paths ()}
+
+
+Everything looks good! ヽ(‘ー`)ノ
