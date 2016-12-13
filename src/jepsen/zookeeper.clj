@@ -52,7 +52,13 @@
         (c/exec :service :zookeeper :stop)
         (c/exec :rm :-rf
                 (c/lit "/var/lib/zookeeper/version-*")
-                (c/lit "/var/log/zookeeper/*"))))))
+                (c/lit "/var/log/zookeeper/*"))))
+
+    db/LogFiles
+      (log-files [_ test node]
+               ["/var/logs/zookeeper/zookeeper.log"])))
+
+
 
 
 (defn zk-test "Given an options map from the command-line runner (e.g. :nodes, :ssh, :concurrency, ...), constructs a test map." 
