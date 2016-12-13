@@ -1,4 +1,19 @@
-15:32:59.013 [main] INFO  jepsen.cli - Test options:
+15:43:32.660 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.0-1202560, built on 11/16/2011 07:18 GMT
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=ip-192-168-32-100.eu-west-1.compute.internal
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_111
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/home/admin/jepsen.zookeeper/test:/home/admin/jepsen.zookeeper/src:/home/admin/jepsen.zookeeper/dev-resources:/home/admin/jepsen.zookeeper/resources:/home/admin/jepsen.zookeeper/target/classes:/home/admin/.m2/repository/clj-time/clj-time/0.11.0/clj-time-0.11.0.jar:/home/admin/.m2/repository/avout/avout/0.5.4/avout-0.5.4.jar:/home/admin/.m2/repository/org/clojure/math.combinatorics/0.1.1/math.combinatorics-0.1.1.jar:/home/admin/.m2/repository/org/clojure/java.classpath/0.2.2/java.classpath-0.2.2.jar:/home/admin/.m2/repository/jepsen/jepsen/0.1.4/jepsen-0.1.4.jar:/home/admin/.m2/repository/org/apache/zookeeper/zookeeper/3.4.0/zookeeper-3.4.0.jar:/home/admin/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar:/home/admin/.m2/repository/net/logstash/logback/logstash-logback-encoder/4.2/logstash-logback-encoder-4.2.jar:/home/admin/.m2/repository/org/clojure/algo.generic/0.1.2/algo.generic-0.1.2.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.jar:/home/admin/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/admin/.m2/repository/org/jboss/netty/netty/3.2.2.Final/netty-3.2.2.Final.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.usocket-nc/0.0.9/jsch.agentproxy.usocket-nc-0.0.9.jar:/home/admin/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/home/admin/.m2/repository/spootnik/unilog/0.7.13/unilog-0.7.13.jar:/home/admin/.m2/repository/ring/ring-servlet/1.6.0-beta5/ring-servlet-1.6.0-beta5.jar:/home/admin/.m2/repository/interval-metrics/interval-metrics/1.0.0/interval-metrics-1.0.0.jar:/home/admin/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/home/admin/.m2/repository/ring/ring-codec/1.0.1/ring-codec-1.0.1.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.4.0/jackson-databind-2.4.0.jar:/home/admin/.m2/repository/org/clojure/tools.cli/0.3.5/tools.cli-0.3.5.jar:/home/admin/.m2/repository/ring/ring/1.6.0-beta5/ring-1.6.0-beta5.jar:/home/admin/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.12/log4j-over-slf4j-1.7.12.jar:/home/admin/.m2/repository/io/aleph/dirigiste/0.1.3/dirigiste-0.1.3.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.core/0.0.9/jsch.agentproxy.core-0.0.9.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.4.0/jackson-annotations-2.4.0.jar:/home/admin/.m2/repository/org/clojure/tools.nrepl/0.2.12/tools.nrepl-0.2.12.jar:/home/admin/.m2/repository/org/clojure/data.fressian/0.2.1/data.fressian-0.2.1.jar:/home/admin/.m2/repository/zookeeper-clj/zookeeper-clj/0.9.3/zookeeper-clj-0.9.3.jar:/home/admin/.m2/repository/ring/ring-jetty-adapter/1.6.0-beta5/ring-jetty-adapter-1.6.0-beta5.jar:/home/admin/.m2/repository/http-kit/http-kit/2.1.18/http-kit-2.1.18.jar:/home/admin/.m2/repository/clojure-complete/clojure-complete/0.2.4/clojure-complete-0.2.4.jar:/home/admin/.m2/repository/manifold/manifold/0.1.4/manifold-0.1.4.jar:/home/admin/.m2/repository/commons-codec/commons-codec/1.7/commons-codec-1.7.jar:/home/admin/.m2/repository/crypto-equality/crypto-equality/1.0.0/crypto-equality-1.0.0.jar:/home/admin/.m2/repository/potemkin/potemkin/0.4.3/potemkin-0.4.3.jar:/home/admin/.m2/repository/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar:/home/admin/.m2/repository/org/clojars/pallix/analemma/1.0.0/analemma-1.0.0.jar:/home/admin/.m2/repository/ring/ring-devel/1.6.0-beta5/ring-devel-1.6.0-beta5.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.jar:/home/admin/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/home/admin/.m2/repository/ring/ring-core/1.6.0-beta5/ring-core-1.6.0-beta5.jar:/home/admin/.m2/repository/knossos/knossos/0.2.8/knossos-0.2.8.jar:/home/admin/.m2/repository/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2.jar:/home/admin/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/admin/.m2/repository/primitive-math/primitive-math/0.1.5/primitive-math-0.1.5.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.jsch/0.0.9/jsch.agentproxy.jsch-0.0.9.jar:/home/admin/.m2/repository/org/clojure/tools.logging/0.3.1/tools.logging-0.3.1.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.jar:/home/admin/.m2/repository/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.usocket-jna/0.0.9/jsch.agentproxy.usocket-jna-0.0.9.jar:/home/admin/.m2/repository/org/clojure/tools.namespace/0.2.10/tools.namespace-0.2.10.jar:/home/admin/.m2/repository/org/fressian/fressian/0.6.6/fressian-0.6.6.jar:/home/admin/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/admin/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/home/admin/.m2/repository/crypto-random/crypto-random/1.2.0/crypto-random-1.2.0.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.sshagent/0.0.9/jsch.agentproxy.sshagent-0.0.9.jar:/home/admin/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/admin/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/home/admin/.m2/repository/riddley/riddley/0.1.12/riddley-0.1.12.jar:/home/admin/.m2/repository/byte-streams/byte-streams/0.2.2/byte-streams-0.2.2.jar:/home/admin/.m2/repository/ns-tracker/ns-tracker/0.3.0/ns-tracker-0.3.0.jar:/home/admin/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/home/admin/.m2/repository/gnuplot/gnuplot/0.1.1/gnuplot-0.1.1.jar:/home/admin/.m2/repository/org/clojars/achim/multiset/0.1.0/multiset-0.1.0.jar:/home/admin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.4.0/jackson-core-2.4.0.jar:/home/admin/.m2/repository/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.jar:/home/admin/.m2/repository/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar:/home/admin/.m2/repository/clj-ssh/clj-ssh/0.5.14/clj-ssh-0.5.14.jar:/home/admin/.m2/repository/com/jcraft/jsch.agentproxy.pageant/0.0.9/jsch.agentproxy.pageant-0.0.9.jar:/home/admin/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/admin/.m2/repository/joda-time/joda-time/2.8.2/joda-time-2.8.2.jar:/home/admin/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=3.16.0-4-amd64
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=admin
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/admin
+15:43:32.663 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/admin/jepsen.zookeeper
+15:43:32.766 [main] INFO  jepsen.cli - Test options:
  {:concurrency 5,
  :test-count 1,
  :time-limit 60,
@@ -10,86 +25,121 @@
   :strict-host-key-checking false,
   :private-key-path nil}}
 
-INFO [2016-12-13 15:32:59,765] jepsen node w3 - jepsen.os.debian w3 setting up debian
-INFO [2016-12-13 15:32:59,765] jepsen node w1 - jepsen.os.debian w1 setting up debian
-INFO [2016-12-13 15:32:59,765] jepsen node w4 - jepsen.os.debian w4 setting up debian
-INFO [2016-12-13 15:32:59,765] jepsen node w2 - jepsen.os.debian w2 setting up debian
-INFO [2016-12-13 15:32:59,766] jepsen node w5 - jepsen.os.debian w5 setting up debian
-INFO [2016-12-13 15:33:00,483] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
-INFO [2016-12-13 15:33:00,483] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
-INFO [2016-12-13 15:33:00,483] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
-INFO [2016-12-13 15:33:00,483] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
-INFO [2016-12-13 15:33:00,483] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
-INFO [2016-12-13 15:33:00,600] jepsen node w2 - jepsen.zookeeper Setting up ZK on  w2
-INFO [2016-12-13 15:33:00,601] jepsen node w2 - jepsen.zookeeper w2 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:33:00,687] jepsen node w1 - jepsen.zookeeper Setting up ZK on  w1
-INFO [2016-12-13 15:33:00,687] jepsen node w4 - jepsen.zookeeper Setting up ZK on  w4
-INFO [2016-12-13 15:33:00,687] jepsen node w1 - jepsen.zookeeper w1 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:33:00,687] jepsen node w5 - jepsen.zookeeper Setting up ZK on  w5
-INFO [2016-12-13 15:33:00,687] jepsen node w4 - jepsen.zookeeper w4 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:33:00,687] jepsen node w5 - jepsen.zookeeper w5 Installing ZK 3.4.5+dfsg-2
-INFO [2016-12-13 15:33:00,696] jepsen node w3 - jepsen.zookeeper Setting up ZK on  w3
-INFO [2016-12-13 15:33:00,696] jepsen node w3 - jepsen.zookeeper w3 Installing ZK 3.4.5+dfsg-2
-WARN [2016-12-13 15:33:00,740] jepsen node w1 - jepsen.control Encountered error with conn [:control "w1"]; reopening
-WARN [2016-12-13 15:33:00,797] jepsen node w3 - jepsen.control Encountered error with conn [:control "w3"]; reopening
-WARN [2016-12-13 15:33:00,846] jepsen node w4 - jepsen.control Encountered error with conn [:control "w4"]; reopening
-INFO [2016-12-13 15:33:00,907] jepsen node w2 - jepsen.zookeeper w2 id is 1
-INFO [2016-12-13 15:33:00,991] jepsen node w5 - jepsen.zookeeper w5 id is 4
-INFO [2016-12-13 15:33:01,111] jepsen node w2 - jepsen.zookeeper w2 ZK restarting
-INFO [2016-12-13 15:33:01,193] jepsen node w5 - jepsen.zookeeper w5 ZK restarting
-INFO [2016-12-13 15:33:01,212] jepsen node w2 - jepsen.zookeeper w2 ZK ready
-INFO [2016-12-13 15:33:01,295] jepsen node w5 - jepsen.zookeeper w5 ZK ready
-INFO [2016-12-13 15:33:02,554] jepsen node w4 - jepsen.zookeeper w4 id is 3
-INFO [2016-12-13 15:33:02,665] jepsen node w1 - jepsen.zookeeper w1 id is 0
-INFO [2016-12-13 15:33:02,757] jepsen node w4 - jepsen.zookeeper w4 ZK restarting
-INFO [2016-12-13 15:33:02,858] jepsen node w4 - jepsen.zookeeper w4 ZK ready
-INFO [2016-12-13 15:33:02,868] jepsen node w1 - jepsen.zookeeper w1 ZK restarting
-INFO [2016-12-13 15:33:02,896] jepsen node w3 - jepsen.zookeeper w3 id is 2
-INFO [2016-12-13 15:33:02,969] jepsen node w1 - jepsen.zookeeper w1 ZK ready
-INFO [2016-12-13 15:33:03,099] jepsen node w3 - jepsen.zookeeper w3 ZK restarting
-INFO [2016-12-13 15:33:03,200] jepsen node w3 - jepsen.zookeeper w3 ZK ready
-INFO [2016-12-13 15:33:03,206] jepsen nemesis - jepsen.core Nemesis starting
-INFO [2016-12-13 15:33:03,206] jepsen nemesis - jepsen.core nemesis done
-INFO [2016-12-13 15:33:03,207] jepsen worker 1 - jepsen.core Worker 1 starting
-INFO [2016-12-13 15:33:03,207] jepsen worker 0 - jepsen.core Worker 0 starting
-INFO [2016-12-13 15:33:03,207] jepsen worker 4 - jepsen.core Worker 4 starting
-INFO [2016-12-13 15:33:03,207] jepsen worker 2 - jepsen.core Worker 2 starting
-INFO [2016-12-13 15:33:03,208] jepsen worker 3 - jepsen.core Worker 3 starting
-INFO [2016-12-13 15:33:03,208] jepsen worker 1 - jepsen.core Worker 1 done
-INFO [2016-12-13 15:33:03,208] jepsen worker 0 - jepsen.core Worker 0 done
-INFO [2016-12-13 15:33:03,208] jepsen worker 4 - jepsen.core Worker 4 done
-INFO [2016-12-13 15:33:03,208] jepsen worker 2 - jepsen.core Worker 2 done
-INFO [2016-12-13 15:33:03,208] jepsen worker 3 - jepsen.core Worker 3 done
-INFO [2016-12-13 15:33:03,208] jepsen test runner - jepsen.core Waiting for nemesis to complete
-INFO [2016-12-13 15:33:03,209] jepsen test runner - jepsen.core nemesis done.
-INFO [2016-12-13 15:33:03,209] jepsen test runner - jepsen.core Tearing down nemesis
-INFO [2016-12-13 15:33:03,209] jepsen test runner - jepsen.core Nemesis torn down
-INFO [2016-12-13 15:33:03,210] jepsen test runner - jepsen.core Snarfing log files
-INFO [2016-12-13 15:33:03,214] jepsen node w2 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:33:03,214] jepsen node w3 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:33:03,214] jepsen node w4 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:33:03,214] jepsen node w5 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
-INFO [2016-12-13 15:33:03,214] jepsen node w1 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
-WARN [2016-12-13 15:33:03,245] jepsen node w5 - jepsen.control Encountered error with conn [:control "w5"]; reopening
-WARN [2016-12-13 15:33:03,248] jepsen node w2 - jepsen.control Encountered error with conn [:control "w2"]; reopening
-WARN [2016-12-13 15:33:03,250] jepsen node w4 - jepsen.control Encountered error with conn [:control "w4"]; reopening
-WARN [2016-12-13 15:33:03,262] jepsen node w3 - jepsen.control Encountered error with conn [:control "w3"]; reopening
-WARN [2016-12-13 15:33:03,270] jepsen node w1 - jepsen.control Encountered error with conn [:control "w1"]; reopening
-INFO [2016-12-13 15:33:03,317] jepsen node w5 - jepsen.core /var/logs/zookeeper/zookeeper.log pipe closed
-INFO [2016-12-13 15:33:03,382] jepsen node w4 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
-INFO [2016-12-13 15:33:03,466] jepsen node w3 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
-INFO [2016-12-13 15:33:03,537] jepsen node w1 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
-INFO [2016-12-13 15:33:03,611] jepsen node w2 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
-INFO [2016-12-13 15:33:03,612] jepsen test runner - jepsen.core Run complete, writing
-INFO [2016-12-13 15:33:03,630] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
-INFO [2016-12-13 15:33:03,630] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
-INFO [2016-12-13 15:33:03,630] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
-INFO [2016-12-13 15:33:03,630] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
-INFO [2016-12-13 15:33:03,630] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
-INFO [2016-12-13 15:33:04,237] jepsen test runner - jepsen.core Analyzing
-INFO [2016-12-13 15:33:04,247] jepsen test runner - jepsen.core Analysis complete
-INFO [2016-12-13 15:33:04,261] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T153259.000Z/results.edn
-INFO [2016-12-13 15:33:04,267] main - jepsen.core {:valid? true,
+INFO [2016-12-13 15:43:33,459] jepsen node w3 - jepsen.os.debian w3 setting up debian
+INFO [2016-12-13 15:43:33,459] jepsen node w5 - jepsen.os.debian w5 setting up debian
+INFO [2016-12-13 15:43:33,459] jepsen node w1 - jepsen.os.debian w1 setting up debian
+INFO [2016-12-13 15:43:33,460] jepsen node w4 - jepsen.os.debian w4 setting up debian
+INFO [2016-12-13 15:43:33,460] jepsen node w2 - jepsen.os.debian w2 setting up debian
+INFO [2016-12-13 15:43:34,179] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
+INFO [2016-12-13 15:43:34,179] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
+INFO [2016-12-13 15:43:34,179] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
+INFO [2016-12-13 15:43:34,180] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 15:43:34,180] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
+WARN [2016-12-13 15:43:34,240] jepsen node w2 - jepsen.control Encountered error with conn [:control "w2"]; reopening
+INFO [2016-12-13 15:43:34,383] jepsen node w1 - jepsen.zookeeper Setting up ZK on  w1
+INFO [2016-12-13 15:43:34,383] jepsen node w3 - jepsen.zookeeper Setting up ZK on  w3
+INFO [2016-12-13 15:43:34,383] jepsen node w1 - jepsen.zookeeper w1 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:43:34,383] jepsen node w4 - jepsen.zookeeper Setting up ZK on  w4
+INFO [2016-12-13 15:43:34,383] jepsen node w3 - jepsen.zookeeper w3 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:43:34,383] jepsen node w4 - jepsen.zookeeper w4 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:43:34,385] jepsen node w5 - jepsen.zookeeper Setting up ZK on  w5
+INFO [2016-12-13 15:43:34,385] jepsen node w5 - jepsen.zookeeper w5 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:43:34,690] jepsen node w1 - jepsen.zookeeper w1 id is 0
+INFO [2016-12-13 15:43:34,690] jepsen node w4 - jepsen.zookeeper w4 id is 3
+INFO [2016-12-13 15:43:34,690] jepsen node w3 - jepsen.zookeeper w3 id is 2
+INFO [2016-12-13 15:43:34,690] jepsen node w5 - jepsen.zookeeper w5 id is 4
+INFO [2016-12-13 15:43:34,895] jepsen node w4 - jepsen.zookeeper w4 ZK restarting
+INFO [2016-12-13 15:43:34,896] jepsen node w3 - jepsen.zookeeper w3 ZK restarting
+INFO [2016-12-13 15:43:34,896] jepsen node w1 - jepsen.zookeeper w1 ZK restarting
+INFO [2016-12-13 15:43:34,897] jepsen node w5 - jepsen.zookeeper w5 ZK restarting
+INFO [2016-12-13 15:43:34,997] jepsen node w3 - jepsen.zookeeper w3 ZK ready
+INFO [2016-12-13 15:43:34,997] jepsen node w4 - jepsen.zookeeper w4 ZK ready
+INFO [2016-12-13 15:43:34,998] jepsen node w5 - jepsen.zookeeper w5 ZK ready
+INFO [2016-12-13 15:43:34,998] jepsen node w1 - jepsen.zookeeper w1 ZK ready
+INFO [2016-12-13 15:43:35,562] jepsen node w2 - jepsen.zookeeper Setting up ZK on  w2
+INFO [2016-12-13 15:43:35,562] jepsen node w2 - jepsen.zookeeper w2 Installing ZK 3.4.5+dfsg-2
+INFO [2016-12-13 15:43:35,866] jepsen node w2 - jepsen.zookeeper w2 id is 1
+INFO [2016-12-13 15:43:36,069] jepsen node w2 - jepsen.zookeeper w2 ZK restarting
+INFO [2016-12-13 15:43:36,170] jepsen node w2 - jepsen.zookeeper w2 ZK ready
+INFO [2016-12-13 15:43:36,176] clojure-agent-send-off-pool-3 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@175901dd
+INFO [2016-12-13 15:43:36,176] clojure-agent-send-off-pool-0 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@50b24ca
+INFO [2016-12-13 15:43:36,176] clojure-agent-send-off-pool-2 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@fbd58f9
+INFO [2016-12-13 15:43:36,176] clojure-agent-send-off-pool-1 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@9fa70ec
+INFO [2016-12-13 15:43:36,176] clojure-agent-send-off-pool-4 - org.apache.zookeeper.ZooKeeper Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__762@64a3488d
+INFO [2016-12-13 15:43:36,244] clojure-agent-send-off-pool-0-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.101:2181
+INFO [2016-12-13 15:43:36,244] clojure-agent-send-off-pool-1-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.105:2181
+INFO [2016-12-13 15:43:36,244] clojure-agent-send-off-pool-4-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.104:2181
+INFO [2016-12-13 15:43:36,247] clojure-agent-send-off-pool-2-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.102:2181
+INFO [2016-12-13 15:43:36,247] clojure-agent-send-off-pool-3-SendThread() - org.apache.zookeeper.ClientCnxn Opening socket connection to server /192.168.32.103:2181
+INFO [2016-12-13 15:43:36,275] clojure-agent-send-off-pool-4-SendThread(w4:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w4/192.168.32.104:2181, initiating session
+INFO [2016-12-13 15:43:36,275] clojure-agent-send-off-pool-3-SendThread(w3:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w3/192.168.32.103:2181, initiating session
+INFO [2016-12-13 15:43:36,275] clojure-agent-send-off-pool-1-SendThread(w5:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w5/192.168.32.105:2181, initiating session
+INFO [2016-12-13 15:43:36,277] clojure-agent-send-off-pool-0-SendThread(w1:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w1/192.168.32.101:2181, initiating session
+WARN [2016-12-13 15:43:36,290] clojure-agent-send-off-pool-2-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_111]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[na:1.8.0_111]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:286) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1041) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+INFO [2016-12-13 15:43:36,585] clojure-agent-send-off-pool-3-SendThread(w3:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w3/192.168.32.103:2181, sessionid = 0x158f8da73900000, negotiated timeout = 5000
+INFO [2016-12-13 15:43:36,588] clojure-agent-send-off-pool-0-SendThread(w1:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w1/192.168.32.101:2181, sessionid = 0x158f8da70e50000, negotiated timeout = 5000
+INFO [2016-12-13 15:43:36,686] clojure-agent-send-off-pool-4-SendThread(w4:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w4/192.168.32.104:2181, sessionid = 0x158f8da71080000, negotiated timeout = 5000
+INFO [2016-12-13 15:43:36,729] clojure-agent-send-off-pool-1-SendThread(w5:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w5/192.168.32.105:2181, sessionid = 0x158f8da71d90000, negotiated timeout = 5000
+INFO [2016-12-13 15:43:37,401] clojure-agent-send-off-pool-2-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Opening socket connection to server w2/192.168.32.102:2181
+INFO [2016-12-13 15:43:37,402] clojure-agent-send-off-pool-2-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Socket connection established to w2/192.168.32.102:2181, initiating session
+INFO [2016-12-13 15:43:37,970] clojure-agent-send-off-pool-2-SendThread(w2:2181) - org.apache.zookeeper.ClientCnxn Session establishment complete on server w2/192.168.32.102:2181, sessionid = 0x158f8da75cd0000, negotiated timeout = 5000
+INFO [2016-12-13 15:43:38,091] jepsen nemesis - jepsen.core Nemesis starting
+INFO [2016-12-13 15:43:38,092] jepsen nemesis - jepsen.core nemesis done
+INFO [2016-12-13 15:43:38,093] jepsen worker 3 - jepsen.core Worker 3 starting
+INFO [2016-12-13 15:43:38,093] jepsen worker 4 - jepsen.core Worker 4 starting
+INFO [2016-12-13 15:43:38,093] jepsen worker 2 - jepsen.core Worker 2 starting
+INFO [2016-12-13 15:43:38,093] jepsen worker 0 - jepsen.core Worker 0 starting
+INFO [2016-12-13 15:43:38,093] jepsen worker 1 - jepsen.core Worker 1 starting
+INFO [2016-12-13 15:43:38,093] jepsen worker 3 - jepsen.core Worker 3 done
+INFO [2016-12-13 15:43:38,093] jepsen worker 4 - jepsen.core Worker 4 done
+INFO [2016-12-13 15:43:38,093] jepsen worker 2 - jepsen.core Worker 2 done
+INFO [2016-12-13 15:43:38,093] jepsen worker 0 - jepsen.core Worker 0 done
+INFO [2016-12-13 15:43:38,093] jepsen worker 1 - jepsen.core Worker 1 done
+INFO [2016-12-13 15:43:38,094] jepsen test runner - jepsen.core Waiting for nemesis to complete
+INFO [2016-12-13 15:43:38,094] jepsen test runner - jepsen.core nemesis done.
+INFO [2016-12-13 15:43:38,094] jepsen test runner - jepsen.core Tearing down nemesis
+INFO [2016-12-13 15:43:38,094] jepsen test runner - jepsen.core Nemesis torn down
+INFO [2016-12-13 15:43:38,097] clojure-agent-send-off-pool-5 - org.apache.zookeeper.ZooKeeper Session: 0x158f8da75cd0000 closed
+INFO [2016-12-13 15:43:38,097] clojure-agent-send-off-pool-2-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 15:43:38,097] clojure-agent-send-off-pool-1 - org.apache.zookeeper.ZooKeeper Session: 0x158f8da73900000 closed
+INFO [2016-12-13 15:43:38,098] clojure-agent-send-off-pool-3 - org.apache.zookeeper.ZooKeeper Session: 0x158f8da71080000 closed
+INFO [2016-12-13 15:43:38,098] clojure-agent-send-off-pool-3-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 15:43:38,098] clojure-agent-send-off-pool-4-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 15:43:38,098] clojure-agent-send-off-pool-4 - org.apache.zookeeper.ZooKeeper Session: 0x158f8da71d90000 closed
+INFO [2016-12-13 15:43:38,098] clojure-agent-send-off-pool-1-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 15:43:38,098] clojure-agent-send-off-pool-2 - org.apache.zookeeper.ZooKeeper Session: 0x158f8da70e50000 closed
+INFO [2016-12-13 15:43:38,098] clojure-agent-send-off-pool-0-EventThread - org.apache.zookeeper.ClientCnxn EventThread shut down
+INFO [2016-12-13 15:43:38,099] jepsen test runner - jepsen.core Snarfing log files
+INFO [2016-12-13 15:43:38,102] jepsen node w4 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 15:43:38,102] jepsen node w1 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 15:43:38,103] jepsen node w5 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 15:43:38,103] jepsen node w2 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
+INFO [2016-12-13 15:43:38,103] jepsen node w3 - jepsen.core downloading /var/logs/zookeeper/zookeeper.log to zookeeper.log
+WARN [2016-12-13 15:43:38,113] jepsen node w3 - jepsen.control Encountered error with conn [:control "w3"]; reopening
+WARN [2016-12-13 15:43:38,113] jepsen node w5 - jepsen.control Encountered error with conn [:control "w5"]; reopening
+WARN [2016-12-13 15:43:38,113] jepsen node w1 - jepsen.control Encountered error with conn [:control "w1"]; reopening
+WARN [2016-12-13 15:43:38,113] jepsen node w4 - jepsen.control Encountered error with conn [:control "w4"]; reopening
+WARN [2016-12-13 15:43:38,114] jepsen node w2 - jepsen.control Encountered error with conn [:control "w2"]; reopening
+INFO [2016-12-13 15:43:38,191] jepsen node w1 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
+INFO [2016-12-13 15:43:38,251] jepsen node w4 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
+INFO [2016-12-13 15:43:38,317] jepsen node w2 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
+INFO [2016-12-13 15:43:38,373] jepsen node w5 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
+INFO [2016-12-13 15:43:38,439] jepsen node w3 - jepsen.core /var/logs/zookeeper/zookeeper.log doesn't exist
+INFO [2016-12-13 15:43:38,439] jepsen test runner - jepsen.core Run complete, writing
+INFO [2016-12-13 15:43:38,456] jepsen node w4 - jepsen.zookeeper w4 tearing down ZK
+INFO [2016-12-13 15:43:38,456] jepsen node w1 - jepsen.zookeeper w1 tearing down ZK
+INFO [2016-12-13 15:43:38,456] jepsen node w3 - jepsen.zookeeper w3 tearing down ZK
+INFO [2016-12-13 15:43:38,456] jepsen node w5 - jepsen.zookeeper w5 tearing down ZK
+INFO [2016-12-13 15:43:38,457] jepsen node w2 - jepsen.zookeeper w2 tearing down ZK
+INFO [2016-12-13 15:43:39,062] jepsen test runner - jepsen.core Analyzing
+INFO [2016-12-13 15:43:39,072] jepsen test runner - jepsen.core Analysis complete
+INFO [2016-12-13 15:43:39,082] jepsen results - jepsen.store Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T154332.000Z/results.edn
+INFO [2016-12-13 15:43:39,088] main - jepsen.core {:valid? true,
  :configs ({:model {}, :last-op nil, :pending []}),
  :final-paths ()}
 

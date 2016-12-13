@@ -3,11 +3,14 @@
   (:require [jepsen [cli :as cli] 
              [db :as db]
              [control :as c]
-             [tests :as tests]]
+             [tests :as tests]
+             [cli :as cli]
+             [client :as client]]
             [jepsen.os.debian :as debian]
             [clojure.tools.logging :refer :all]
             [clojure.java.io :as io]
             [clojure.string :as str]
+            [avout.core :as avout]
             )
   )
 
@@ -58,6 +61,22 @@
       (log-files [_ test node]
                ["/var/logs/zookeeper/zookeeper.log"])))
 
+(defn r  [_ _] {:type :invoke, :f :read, :value nil})
+(defn r  [_ _] {:type :invoke, :f :write, :value (rand-int 5)})
+(defn cas [_ _] {:type :invoke, :f :cas, :value [(rand-int 5) (rand-int 5)]})
+
+(defn client
+  "A client for single compare-and-set register"
+  [conn a]
+  (reify client/Client
+    (setup! [_ test node]
+      (let [conn (avout/connect (name node))
+            a (avout/zk-atom conn "/jepsen" 0)]
+      (client conn a)))
+    (invoke! [this test op])
+    (teardown! [_ test]
+      (.close conn))))
+
 
 
 
@@ -70,6 +89,7 @@
           :name "zookeeper"
           :os debian/os
           :db (db "3.4.5+dfsg-2")
+          :client (client nil nil)
           }))
 
 (defn -main
