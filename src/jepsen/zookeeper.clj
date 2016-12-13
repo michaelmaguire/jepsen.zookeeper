@@ -79,7 +79,9 @@
     (invoke! [this test op]
       (timeout 5000 (assoc op :type :info, :error :timeout)
                (case (:f op)
-                 :read (assoc op :type :ok, :value @a))))
+                 :read (assoc op :type :ok, :value @a)
+                 :write (do (avout/reset!! a (:value  op))
+                            (assoc op :type :ok)))))
     (teardown! [_ test]
       (.close conn))))
 
@@ -96,7 +98,7 @@
           :os debian/os
           :db (db "3.4.5+dfsg-2")
           :client (client nil nil)
-          :generator(->> r
+          :generator(->> (gen/mix [r w])
                          (gen/stagger 1)
                          (gen/clients)
                          (gen/time-limit 15))
