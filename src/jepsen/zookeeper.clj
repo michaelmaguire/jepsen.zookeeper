@@ -37,7 +37,12 @@
         (debian/install {:zookeeper version
                          :zookeeper-bin version
                          :zookeeperd version})
-        (info node "id is" (zk-node-id test node))))
+        (info node "id is" (zk-node-id test node))
+        (c/exec :echo (zk-node-id test node) :> "/etc/zookeeper/conf/myid")
+        (c/exec :echo (str (slurp (io/resource "zoo.cfg"))
+                           "\n"
+                           (zoo-cfg-servers test)
+                           :> "/etc/zookeeper/conf/zoo.cfg"))))
     (teardown! [_ test node]
       (info node "tearing down ZK"))))
 
