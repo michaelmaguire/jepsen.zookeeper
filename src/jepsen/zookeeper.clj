@@ -42,9 +42,17 @@
         (c/exec :echo (str (slurp (io/resource "zoo.cfg"))
                            "\n"
                            (zoo-cfg-servers test)
-                           :> "/etc/zookeeper/conf/zoo.cfg"))))
+                           :> "/etc/zookeeper/conf/zoo.cfg"))
+        (info node "ZK restarting")
+        (c/exec :service :zookeeper :restart)
+        (info node "ZK ready")))
     (teardown! [_ test node]
-      (info node "tearing down ZK"))))
+      (info node "tearing down ZK")
+      (c/su
+        (c/exec :service :zookeeper :stop)
+        (c/exec :rm :-rf
+                (c/lit "/var/lib/zookeeper/version-*")
+                (c/lit "/var/log/zookeeper/*"))))))
 
 
 (defn zk-test "Given an options map from the command-line runner (e.g. :nodes, :ssh, :concurrency, ...), constructs a test map." 
