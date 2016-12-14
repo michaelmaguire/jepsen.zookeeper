@@ -8,7 +8,8 @@
              [generator :as gen]
              [util :as util :refer [timeout]]
              [client :as client]
-             [checker :as checker]]
+             [checker :as checker]
+             [nemesis :as nemesis]]
             [jepsen.os.debian :as debian]
             [clojure.tools.logging :refer :all]
             [clojure.java.io :as io]
@@ -109,9 +110,14 @@
           :os debian/os
           :db (db "3.4.5+dfsg-2")
           :client (client nil nil)
+          :nemesis (nemesis/partition-random-halves)
           :generator(->> (gen/mix [r w cas])
                          (gen/stagger 1)
-                         (gen/clients)
+                         (gen/nemesis
+                           (gen/seq (cycle [(gen/sleep 5)
+                                            {:type :info, :f :start}
+                                            (gen/sleep 5)
+                                            {:type :info, :f :stop}])))
                          (gen/time-limit 15))
           :model (model/cas-register 0)
           :checker (checker/compose {:linear checker/linearizable :perf (checker/perf)})}))
