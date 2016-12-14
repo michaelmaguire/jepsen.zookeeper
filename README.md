@@ -1,14 +1,13 @@
 # jepsen.zookeeper
 
-A Clojure library designed to ... well, that part is up to you.
+Our copy of the jepsen.zookeeper test project, constructed as we worked through a great 2 day tutorial provided by Kyle Kingsbury.
 
-## Usage
+Zookeeper claims to offer "Linearizable Writes" with "Sequential Reads" consistency:
 
-FIXME
+![db-consistency-family-tree](https://cloud.githubusercontent.com/assets/2184330/21183778/67fbdcbe-c201-11e6-924a-c7235128db69.jpg)
 
-## License
+( "strongest" at the top, "weaker" at the bottom. https://aphyr.com/posts/313-strong-consistency-models ) 
 
-Copyright © 2016 FIXME
+It does not offer "Linearizable" or "Strong Serializable".
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+For fun, to illustrate the Jepsen framework, we tested Zookeeper against a higher level of consistency, namely "Linearizable", expecting it to fail. 
