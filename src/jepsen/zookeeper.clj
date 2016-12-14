@@ -11,6 +11,7 @@
              [checker :as checker]
              [nemesis :as nemesis]]
             [jepsen.os.debian :as debian]
+            [jepsen.checker.timeline :as timeline]
             [clojure.tools.logging :refer :all]
             [clojure.java.io :as io]
             [clojure.string :as str]
@@ -120,7 +121,7 @@
                                             {:type :info, :f :stop}])))
                          (gen/time-limit 15))
           :model (model/cas-register 0)
-          :checker (checker/compose {:linear checker/linearizable :perf (checker/perf)})}))
+          :checker (checker/compose {:linear checker/linearizable :html (timeline/html) :perf (checker/perf)})}))
 
 (defn -main
   "Handle command line arguments"
