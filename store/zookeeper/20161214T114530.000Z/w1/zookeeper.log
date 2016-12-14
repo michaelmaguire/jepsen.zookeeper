@@ -1,0 +1,33 @@
+2016-12-14 11:45:32,964 - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /etc/zookeeper/conf/zoo.cfg
+2016-12-14 11:45:32,968 - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2016-12-14 11:45:32,968 - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2016-12-14 11:45:32,968 - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2016-12-14 11:45:32,969 - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2016-12-14 11:45:32,988 - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /etc/zookeeper/conf/zoo.cfg
+2016-12-14 11:45:32,989 - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2016-12-14 11:45:32,999 - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.5--1, built on 03/16/2014 21:36 GMT
+2016-12-14 11:45:32,999 - INFO  [main:Environment@100] - Server environment:host.name=w1
+2016-12-14 11:45:33,000 - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_111
+2016-12-14 11:45:33,000 - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2016-12-14 11:45:33,000 - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2016-12-14 11:45:33,000 - INFO  [main:Environment@100] - Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar
+2016-12-14 11:45:33,000 - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-14 11:45:33,000 - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2016-12-14 11:45:33,001 - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2016-12-14 11:45:33,002 - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2016-12-14 11:45:33,002 - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2016-12-14 11:45:33,002 - INFO  [main:Environment@100] - Server environment:os.version=3.16.0-4-amd64
+2016-12-14 11:45:33,003 - INFO  [main:Environment@100] - Server environment:user.name=zookeeper
+2016-12-14 11:45:33,003 - INFO  [main:Environment@100] - Server environment:user.home=/var/lib/zookeeper
+2016-12-14 11:45:33,003 - INFO  [main:Environment@100] - Server environment:user.dir=/
+2016-12-14 11:45:33,012 - INFO  [main:ZooKeeperServer@726] - tickTime set to 2000
+2016-12-14 11:45:33,012 - INFO  [main:ZooKeeperServer@735] - minSessionTimeout set to -1
+2016-12-14 11:45:33,012 - INFO  [main:ZooKeeperServer@744] - maxSessionTimeout set to -1
+2016-12-14 11:45:33,025 - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2016-12-14 11:45:33,040 - INFO  [main:FileTxnSnapLog@240] - Snapshotting: 0x0 to /var/lib/zookeeper/version-2/snapshot.0
+2016-12-14 11:45:37,749 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /192.168.32.100:27861
+2016-12-14 11:45:37,828 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /192.168.32.100:27861
+2016-12-14 11:45:37,830 - INFO  [SyncThread:0:FileTxnLog@199] - Creating new log file: log.1
+2016-12-14 11:45:37,853 - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x158fd26df760000 with negotiated timeout 5000 for client /192.168.32.100:27861
+2016-12-14 11:45:55,710 - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x158fd26df760000
+2016-12-14 11:45:55,713 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /192.168.32.100:27861 which had sessionid 0x158fd26df760000

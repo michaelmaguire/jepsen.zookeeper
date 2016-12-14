@@ -1,0 +1,62 @@
+{:linear
+ {:valid? false,
+  :configs
+  ({:model {:value [0 3]},
+    :last-op
+    {:type :ok,
+     :f :write,
+     :value [0 3],
+     :process 4,
+     :time 1455277289,
+     :index 3},
+    :pending
+    [{:type :invoke,
+      :f :read,
+      :value 0,
+      :process 1,
+      :time 1866767568,
+      :index 4}]}),
+  :final-paths
+  ([{:op
+     {:type :ok,
+      :f :write,
+      :value [0 3],
+      :process 4,
+      :time 1455277289,
+      :index 3},
+     :model {:value [0 3]}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 0,
+      :process 1,
+      :time 1870557345,
+      :index 5},
+     :model {:msg "can't read 0 from register [0 3]"}}]),
+  :previous-ok
+  {:type :ok,
+   :f :write,
+   :value [0 3],
+   :process 4,
+   :time 1455277289,
+   :index 3},
+  :last-op
+  {:type :ok,
+   :f :write,
+   :value [0 3],
+   :process 4,
+   :time 1455277289,
+   :index 3},
+  :op
+  {:type :ok,
+   :f :read,
+   :value 0,
+   :process 1,
+   :time 1870557345,
+   :index 5}},
+ :html {:valid? true},
+ :perf
+ {:latency-graph {:valid? true},
+  :rate-graph {:valid? true},
+  :valid? true},
+ :valid? false}
