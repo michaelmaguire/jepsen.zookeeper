@@ -1,0 +1,55 @@
+{:valid? false,
+ :configs
+ ({:model {:value 2},
+   :last-op
+   {:type :ok,
+    :f :cas,
+    :value [3 2],
+    :process 3,
+    :time 1218824205,
+    :index 9},
+   :pending
+   [{:type :invoke,
+     :f :read,
+     :value 0,
+     :process 0,
+     :time 1276664043,
+     :index 10}]}),
+ :final-paths
+ ([{:op
+    {:type :ok,
+     :f :cas,
+     :value [3 2],
+     :process 3,
+     :time 1218824205,
+     :index 9},
+    :model {:value 2}}
+   {:op
+    {:type :ok,
+     :f :read,
+     :value 0,
+     :process 0,
+     :time 1279996518,
+     :index 11},
+    :model {:msg "can't read 0 from register 2"}}]),
+ :previous-ok
+ {:type :ok,
+  :f :cas,
+  :value [3 2],
+  :process 3,
+  :time 1218824205,
+  :index 9},
+ :last-op
+ {:type :ok,
+  :f :cas,
+  :value [3 2],
+  :process 3,
+  :time 1218824205,
+  :index 9},
+ :op
+ {:type :ok,
+  :f :read,
+  :value 0,
+  :process 0,
+  :time 1279996518,
+  :index 11}}

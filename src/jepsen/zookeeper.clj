@@ -7,12 +7,14 @@
              [cli :as cli]
              [generator :as gen]
              [util :as util :refer [timeout]]
-             [client :as client]]
+             [client :as client]
+             [checker :as checker]]
             [jepsen.os.debian :as debian]
             [clojure.tools.logging :refer :all]
             [clojure.java.io :as io]
             [clojure.string :as str]
             [avout.core :as avout]
+            [knossos.model :as model]
             )
   )
 
@@ -111,6 +113,8 @@
                          (gen/stagger 1)
                          (gen/clients)
                          (gen/time-limit 15))
+          :model (model/cas-register 0)
+          :checker checker/linearizable
           }))
 
 (defn -main
