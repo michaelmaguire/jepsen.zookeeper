@@ -114,8 +114,7 @@
                          (gen/clients)
                          (gen/time-limit 15))
           :model (model/cas-register 0)
-          :checker checker/linearizable
-          }))
+          :checker (checker/compose {:linear checker/linearizable :perf (checker/perf)})}))
 
 (defn -main
   "Handle command line arguments"

@@ -1,0 +1,55 @@
+{:valid? false,
+ :configs
+ ({:model {:value 1},
+   :last-op
+   {:type :ok,
+    :f :write,
+    :value 1,
+    :process 2,
+    :time 657702923,
+    :index 1},
+   :pending
+   [{:type :invoke,
+     :f :cas,
+     :value [0 3],
+     :process 3,
+     :time 883522408,
+     :index 2}]}),
+ :final-paths
+ ([{:op
+    {:type :ok,
+     :f :write,
+     :value 1,
+     :process 2,
+     :time 657702923,
+     :index 1},
+    :model {:value 1}}
+   {:op
+    {:type :ok,
+     :f :cas,
+     :value [0 3],
+     :process 3,
+     :time 906330585,
+     :index 3},
+    :model {:msg "can't CAS 1 from 0 to 3"}}]),
+ :previous-ok
+ {:type :ok,
+  :f :write,
+  :value 1,
+  :process 2,
+  :time 657702923,
+  :index 1},
+ :last-op
+ {:type :ok,
+  :f :write,
+  :value 1,
+  :process 2,
+  :time 657702923,
+  :index 1},
+ :op
+ {:type :ok,
+  :f :cas,
+  :value [0 3],
+  :process 3,
+  :time 906330585,
+  :index 3}}
