@@ -10,4 +10,6 @@ Zookeeper claims to offer "Linearizable Writes" with "Sequential Reads" consiste
 
 It does not offer "Linearizable" or "Strong Serializable".
 
-For fun, to illustrate the Jepsen framework, we tested Zookeeper against a higher level of consistency, namely "Linearizable", expecting it to fail. 
+For fun, to illustrate the Jepsen framework, we tested Zookeeper against a higher level of consistency, namely "Linearizable", expecting it to fail that particular level of consistency.
+
+The lessons learned illustrate how the Jepsen framework can be used to test distributed systems.
